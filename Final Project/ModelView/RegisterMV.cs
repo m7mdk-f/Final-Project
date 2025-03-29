@@ -13,12 +13,11 @@ namespace Final_Project.ModelView
         [Display(Name = "Last Name")]
         [MaxLength(20)]
         public string LName { get; set; }
-        [Required]
+
         [DataType(DataType.PhoneNumber)]
         [Display(Name ="Phone Number")]        
-        public string PhoneNumber { get; set; }
-        [Required]
-        public string Address { get; set; }
+        public string PhoneNumber { get; set; }=string.Empty;
+        public string Address { get; set; }=string.Empty ;
         [Required]
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
@@ -28,12 +27,11 @@ namespace Final_Project.ModelView
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Confim Password")]
-        [Compare("Password", ErrorMessage = "Password don't match.")]
+        [Compare("Password", ErrorMessage = "The passwords entered do not match. Please try again.")]
         public string? ConFimPassword { get; set; }
-        [Required]
         [DataType(DataType.ImageUrl)]
         [Display(Name ="Image Url")]
-        public IFormFile ImageUrl { get; set; }
+        public IFormFile? ImageUrl { get; set; } 
 
     }
 }

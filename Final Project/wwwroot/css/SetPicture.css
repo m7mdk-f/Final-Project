@@ -1,0 +1,40 @@
+/* ÍÇæíÉ ÇáÇŞÊÕÇÕ */
+.cropper-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.cropper-modal {
+    background-color: transparent;
+    opacity: 1;
+}
+/* ÇáŞäÇÚ ÇáÏÇÆÑí */
+.cropper-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.271); /* ÎáİíÉ ÓæÏÇÁ ÈÇáßÇãá */
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 50%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 50%);
+    pointer-events: none; /* ÇáÓãÇÍ ÈÇáÊİÇÚá ãÚ ÇáÕæÑÉ ÊÍÊ ÇáŞäÇÚ */
+    border: none; /* ÇáÊÃßÏ ãä ÚÏã æÌæÏ ÍÏæÏ */
+    box-shadow: none; /* ÅáÛÇÁ Ãí Ùá */
+}
+/* ÇáãÚÇíäÉ ÇáÏÇÆÑíÉ */
+.cropped-preview, #finalImageContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ÅÎİÇÁ ÅÏÎÇá Çáãáİ */
+#imageInput {
+    display: none;
+}

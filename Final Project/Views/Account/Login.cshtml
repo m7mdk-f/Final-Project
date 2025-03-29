@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "/Views/Shared/_LoginLayout.cshtml";
+    ViewData["Title"] = "Login";
+
+}
+
+<style>
+    ul{
+        list-style:none !important;
+        text-align:center !important;
+    }
+</style>
+@model LoginMV
+
+@* <div class="col-md-8  col-lg-7 col-xl-6">
+    <img src="https://img.freepik.com/free-vector/sign-concept-illustration_114360-5425.jpg?t=st=1743068611~exp=1743072211~hmac=c04e68d091cbe78164fb2b3ae0dae3d11aa932aedf3a0b4899ea359df423e513&w=740"
+         class="img-fluid" alt="Phone image">
+</div>
+ *@
+<div class="col-md-8  col-lg-7 col-xl-6">
+    <img src="https://img.freepik.com/premium-vector/man-sits-front-phone-that-says-logitech_1314854-10316.jpg?w=740"
+         class="img-fluid" alt="Phone image">
+</div>
+
+<div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+    <form method="post" asp-action="Login" asp-controller="Account">
+        <h2 class="mb-4">Login</h2>
+
+        <div asp-validation-summary="All" class="text-danger" ></div>
+
+        <!-- Email Field -->
+        <div class="form-floating mb-3">
+            <input asp-for="Email" class="form-control" id="email" placeholder="Email"  autofocus>
+            <label asp-for="Email">Email</label>
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-floating mb-3">
+            <input asp-for="Password" class="form-control" id="Password" placeholder="Password" >
+            <label asp-for="Password">Password</label>
+            <span class="text-danger" asp-validation-for="Password">
+
+            </span>
+        </div>
+
+        <!-- Remember Me Checkbox -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="form-check">
+                <input class="form-check-input" asp-for="RemeberMe" id="rememberMe" />
+                <label class="form-check-label" asp-for="RemeberMe"> Remember me </label>
+            </div>
+            <a href="/Account/VerifyEmail">Forgot password?</a>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg w-100">Login</button>
+
+        <!-- Divider -->
+        <div class="divider d-flex align-items-center my-4">
+            <p class="text-center  mx-3 mb-0 text-muted">OR</p>
+        </div>
+
+        <!-- Google Sign-In Button -->
+        <div id="g_id_onload" class="w-100 d-block" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+             data-callback="handleCredentialResponse">
+        </div>
+
+        <div class="g-signin2 d-block justify-content-center">
+            <div class="g_id_signin" data-type="standard"></div>
+        </div>
+
+        <!-- Sign Up Link -->
+        <p class="text-center mt-3">Don't have an account? <a asp-action="Register" asp-controller="Account">Create one</a> </p>
+    </form>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

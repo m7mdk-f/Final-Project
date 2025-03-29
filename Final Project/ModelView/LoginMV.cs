@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Final_Project.Reposetre
+namespace Final_Project.ModelView
 {
     public class LoginMV
     {

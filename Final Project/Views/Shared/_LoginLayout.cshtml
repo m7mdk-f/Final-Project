@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Final_Project.styles.css" asp-append-version="true" />
+
+
+    <style>
+        .custom-floating-label {
+            position: relative;
+        }
+
+            .custom-floating-label input {
+                padding-top: 1.5rem;
+                padding-bottom: 0.5rem;
+            }
+
+            .custom-floating-label label {
+                position: absolute;
+                top: 0.5rem;
+                left: 0.75rem;
+                font-size: 1rem;
+                color: #6b7280;
+                transition: all 0.3s ease;
+                pointer-events: none;
+            }
+
+            .custom-floating-label input:focus + label,
+            .custom-floating-label input:not(:placeholder-shown) + label {
+                top: -0.5rem;
+                left: 0.75rem;
+                font-size: 0.875rem;
+                color: #3b82f6;
+            }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .divider:after,
+        .divider:before {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #eee;
+        }
+
+        .g-signin2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .step {
+            display: none;
+        }
+
+            .step.active {
+                display: block;
+            }
+
+        .flex-container {
+            display: flex;
+            gap: 10px;
+        }
+
+            .flex-container .form-outline {
+                flex: 1;
+            }
+    </style>
+
+
+</head>
+<body style="margin:0!important;">
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex align-items-center justify-content-center h-100">
+               
+                @RenderBody()
+
+            </div>
+        </div>
+    </section>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+        function handleCredentialResponse(response) {
+            console.log("Encoded JWT ID token: " + response.credential);
+            // You can send this token to your backend for verification
+        }
+    </script>
+
+</body>
+</html>
+
+

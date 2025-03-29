@@ -1,0 +1,97 @@
+﻿@{
+    Layout = "/Views/Shared/_LoginLayout.cshtml";
+    ViewData["Title"] = "Register";
+}
+@model RegisterMV
+
+
+
+<div class="col-md-8 col-lg-7 col-xl-6">
+    <img src="https://img.freepik.com/free-vector/placeholder-concept-illustration_114360-4983.jpg"
+         class="img-fluid" alt="Phone image">
+</div>
+
+@* 
+<div class="col-md-8 col-lg-7 col-xl-6">
+    <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7965.jpg?t=st=1743097830~exp=1743101430~hmac=6d4c4b138b9cbbe019be67561e852b8f8cfee50d13444feb21f591add420970a&w=740"
+         class="img-fluid" alt="Phone image">
+</div> *@
+
+<div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+    <!-- Step 1: Basic Information -->
+    <form id="step1" class="step active" method="post" asp-controller="Account" asp-action="Register">
+        <h2 class="mb-4">Register</h2>
+
+        <!-- First Name and Last Name (Flex Layout) -->
+        <div class="flex-container ">
+            <div class="form-floating mb-3 " style="width: 100%;">
+                <input asp-for="FName" class="form-control" id="FirstName" placeholder="First Name "
+                        autofocus>
+                <label asp-for="FName">First Name</label>
+                <span class="text-danger" asp-validation-for="FName">
+
+                </span>
+            </div>
+            <div class="form-floating mb-3" style="width: 100%;">
+                <input asp-for="LName" style="width: 100%;" class="form-control" id="LastName"
+                       placeholder="Last Name "  autofocus>
+                <label asp-for="LName">Last Name</label>
+                <span class="text-danger" asp-validation-for="LName">
+
+                </span>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-floating mb-3">
+            <input asp-for="Email" class="form-control" id="email" placeholder="Email *" 
+                   autofocus>
+            <label asp-for="Email">Email *</label>
+            <span class="text-danger" asp-validation-for="Email">
+
+            </span>
+        </div>
+
+        <!-- Password and Confirm Password (Flex Layout) -->
+        <div class="flex-container">
+            <div class="form-floating mb-3" style="width: 100%;">
+                <input asp-for="Password" style="width: 100%;" class="form-control" id="Password"
+                       placeholder="Password"  autofocus>
+                <label asp-for="Password">Password</label>
+                <span class="text-danger" asp-validation-for="Password">
+
+                </span>
+
+            </div>
+            <div class="form-floating mb-3" style="width: 100%;">
+                <input asp-for="ConFimPassword" style="width: 100%;" class="form-control" id="ConfirmPassword"
+                       placeholder="Confirm Password"  autofocus>
+                <label asp-for="ConFimPassword">Confirm Password</label>
+                <span class="text-danger" asp-validation-for="ConFimPassword">
+
+                </span>
+
+            </div>
+        </div>
+     
+
+
+        <button type="submit" id="nextStep" class="btn btn-primary btn-lg  w-100">Register</button>
+        <div class="divider d-flex align-items-center my-4">
+            <p class="text-center  mx-3 mb-0 text-muted">OR</p>
+        </div>
+        <div id="g_id_onload" class="w-100 d-block" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+             data-callback="handleCredentialResponse">
+        </div>
+
+        <div class="g-signin2 d-block justify-content-center">
+            <div class="g_id_signin" data-type="standard"></div>
+        </div>
+
+        <!-- Login Link -->
+        <p class="text-center mt-3">Already have an account? <a asp-action="Login" asp-controller="Account">Login</a></p>
+    </form>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
