@@ -598,6 +598,8 @@ wwwroot\css\Profile.css
 wwwroot\css\SetPicture.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg
+wwwroot\images\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg
 wwwroot\js\SetPicture.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

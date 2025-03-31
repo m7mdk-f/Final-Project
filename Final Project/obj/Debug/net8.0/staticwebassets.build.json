@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aNksSviJdK87tD5rppz3+jICxjWswEedO07da1vl5L4=",
+  "Hash": "qHsriTcuXrkJjlnsuLjmcDga5jZIKh1HrawGM8iyk/Y=",
   "Source": "Final Project",
   "BasePath": "_content/Final Project",
   "Mode": "Default",
@@ -12610,8 +12610,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pajjm2j48p",
-      "Integrity": "cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c=",
+      "Fingerprint": "2e34nczipk",
+      "Integrity": "1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\SetPicture.css"
@@ -12659,6 +12659,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yrifgnc2ms",
+      "Integrity": "zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bbs811juxl",
+      "Integrity": "qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
       "SourceId": "Final Project",
       "SourceType": "Discovered",
@@ -12673,8 +12715,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w4xz2jlu1n",
-      "Integrity": "gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc=",
+      "Fingerprint": "4b1ivurhea",
+      "Integrity": "4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\SetPicture.js"
@@ -62854,6 +62896,51 @@
       ]
     },
     {
+      "Route": "css/SetPicture.2e34nczipk.css",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\css\\SetPicture.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 10:31:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2e34nczipk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SetPicture.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos="
+        }
+      ]
+    },
+    {
       "Route": "css/SetPicture.css",
       "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\css\\SetPicture.css",
       "Selectors": [],
@@ -62864,7 +62951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1035"
+          "Value": "1147"
         },
         {
           "Name": "Content-Type",
@@ -62872,11 +62959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c=\""
+          "Value": "\"1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:20:33 GMT"
+          "Value": "Mon, 31 Mar 2025 10:31:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -62886,52 +62973,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c="
-        }
-      ]
-    },
-    {
-      "Route": "css/SetPicture.pajjm2j48p.css",
-      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\css\\SetPicture.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:20:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pajjm2j48p"
-        },
-        {
-          "Name": "label",
-          "Value": "css/SetPicture.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c="
+          "Value": "sha256-1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos="
         }
       ]
     },
@@ -63264,6 +63306,215 @@
       ]
     },
     {
+      "Route": "images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.yrifgnc2ms.jpg",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:11:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrifgnc2ms"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.bbs811juxl.jpg",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bbs811juxl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE="
+        }
+      ]
+    },
+    {
+      "Route": "images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 11:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE="
+        }
+      ]
+    },
+    {
+      "Route": "js/SetPicture.4b1ivurhea.js",
+      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 10:15:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4b1ivurhea"
+        },
+        {
+          "Name": "label",
+          "Value": "js/SetPicture.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE="
+        }
+      ]
+    },
+    {
       "Route": "js/SetPicture.js",
       "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
       "Selectors": [],
@@ -63274,7 +63525,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2051"
+          "Value": "2103"
         },
         {
           "Name": "Content-Type",
@@ -63282,11 +63533,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc=\""
+          "Value": "\"4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:17:33 GMT"
+          "Value": "Mon, 31 Mar 2025 10:15:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -63296,52 +63547,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc="
-        }
-      ]
-    },
-    {
-      "Route": "js/SetPicture.w4xz2jlu1n.js",
-      "AssetFile": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2051"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 14:17:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w4xz2jlu1n"
-        },
-        {
-          "Name": "label",
-          "Value": "js/SetPicture.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc="
+          "Value": "sha256-4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE="
         }
       ]
     },

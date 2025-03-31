@@ -9,7 +9,6 @@ namespace Final_Project.ModelView
         [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
         public string Email { get; set; }
 
-
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "New Password")]

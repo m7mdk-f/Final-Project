@@ -6,12 +6,12 @@
     function previewImage(event) {
             const file = event.target.files[0];
     if (file) {
-                const reader = new FileReader();
+        const reader = new FileReader();
     reader.onload = function(e) {
         cropImage.src = ''; // تصفير الصورة السابقة
-    cropImage.src = e.target.result;
-    imageModal.show();
-    setTimeout(initCropper, 500);
+        cropImage.src = e.target.result;
+        imageModal.show();
+        setTimeout(initCropper, 500);
                 };
     reader.readAsDataURL(file);
 
@@ -44,13 +44,15 @@ function saveCroppedImage() {
         height: 150
     });
 
+    console.log('ioiosioss',croppedCanvas)
     const finalImage = document.getElementById('finalImage');
     const svgIcon = document.getElementById('svgIcon');
 
-    
-    // Update the final cropped image preview
     finalImage.src = croppedCanvas.toDataURL();
     svgIcon.style.display="none"
+    imageInput.files[0] = croppedCanvas.toDataURL()
     finalImage.style.display = "block";
     imageModal.hide();
+
+
 }

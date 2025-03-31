@@ -8,8 +8,8 @@
 }
 
 .cropper-modal {
-    background-color: transparent;
-    opacity: 1;
+    background-color: rgb(0,0,0);
+   
 }
 /* «·ﬁ‰«⁄ «·œ«∆—Ì */
 .cropper-overlay {
@@ -37,4 +37,12 @@
 /* ≈Œ›«¡ ≈œŒ«· «·„·› */
 #imageInput {
     display: none;
+}
+
+.cropper-modal {
+    backdrop-filter:blur(2px);
+}
+.cropper-face{
+    border-radius:50%;
+    background-color:black;
 }

@@ -2405,6 +2405,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg",
+      "PackagePath": "staticwebassets\\images\\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg",
+      "PackagePath": "staticwebassets\\images\\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
       "PackagePath": "staticwebassets\\js\\SetPicture.js"
     },

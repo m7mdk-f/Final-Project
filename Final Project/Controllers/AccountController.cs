@@ -1,12 +1,10 @@
-﻿using Final_Project.Models;
+﻿using System.Text.Encodings.Web;
+using Final_Project.Models;
 using Final_Project.ModelView;
 using Final_Project.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using NuGet.Common;
-using System.Text.Encodings.Web;
 
 namespace Final_Project.Controllers
 {
@@ -15,13 +13,14 @@ namespace Final_Project.Controllers
         private readonly UserManager<UserSigin> userManager;
         private readonly SignInManager<UserSigin> signInManager;
         private readonly EmailSenderService _emailSender;
+        private readonly IWebHostEnvironment webHostEnvironment;
 
-
-        public AccountController(UserManager<UserSigin> userManager,SignInManager<UserSigin> signInManager,EmailSenderService emailSender)
+        public AccountController(UserManager<UserSigin> userManager, SignInManager<UserSigin> signInManager, EmailSenderService emailSender, IWebHostEnvironment webHostEnvironment)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
             this._emailSender = emailSender;
+            this.webHostEnvironment = webHostEnvironment;
         }
 
 
@@ -41,6 +40,7 @@ namespace Final_Project.Controllers
                     var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RemeberMe, false);
                     if (result.Succeeded)
                     {
+
                         if (await userManager.IsInRoleAsync(user, "Admin"))
                         {
                             return RedirectToAction("Index", "Home", new { area = "Admin" });
@@ -62,14 +62,14 @@ namespace Final_Project.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterMV model)
         {
-            if (ModelState.IsValid) 
-            { 
-                var user =new UserSigin()
+            if (ModelState.IsValid)
+            {
+                var user = new UserSigin()
                 {
                     Email = model.Email,
-                    UserName=model.Email,
-                    FName=model.FName,
-                    LName=model.LName,
+                    UserName = model.Email,
+                    FName = model.FName,
+                    LName = model.LName,
                 };
 
                 if (model.Password.Length < 8)
@@ -88,24 +88,57 @@ namespace Final_Project.Controllers
 
                 var results = await userManager.CreateAsync(user, model.Password);
 
-                if (!results.Succeeded) {
+                if (!results.Succeeded)
+                {
                     foreach (var item in results.Errors)
                     {
-                         ModelState.AddModelError("Password", item.Description);
-                       
+                        ModelState.AddModelError("Password", item.Description);
+
                     }
                     return View(model);
                 }
 
-                await signInManager.SignInAsync(user,false);
-                return RedirectToAction("index", "home" ,new { area = "User" });
+                await signInManager.SignInAsync(user, false);
+                return RedirectToAction("SetImageProfile", "Account");
             }
-           
+
             return View(model);
         }
         public async Task<IActionResult> SetImageProfile()
         {
             return View();
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> SetImageProfile(RegisterMV model)
+        {
+            if (model.ImageUrl != null)
+            {
+
+                string subFolderPath = "images";
+                int filesize = 5;
+                string[] allowfileExtension = [".jpg", "jpeg", ".png"];
+                if (model.ImageUrl.Length > filesize * 1024 * 1024)
+                {
+
+                }
+                if (allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
+                {
+
+                }
+                string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
+                var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
+                await model.ImageUrl.CopyToAsync(fs1);
+                var user = await userManager.GetUserAsync(User);
+                user.Imageurl = "/" + subFolderPath + "/" + fileName;
+                await userManager.UpdateAsync(user);
+
+                return RedirectToAction("index", "home", new { area = "User" });
+
+            }
+
+            return View(model);
         }
         public async Task<IActionResult> Siginout()
         {
@@ -122,15 +155,17 @@ namespace Final_Project.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> VerifyEmail(VerifyEmailVM model)
         {
-            if (ModelState.IsValid) { 
-                var user=await userManager.FindByEmailAsync(model.Email);
+            if (ModelState.IsValid)
+            {
+                var user = await userManager.FindByEmailAsync(model.Email);
 
-                if (user != null) {
+                if (user != null)
+                {
                     await SendForgotPasswordEmail(user.Email, user);
                     return RedirectToAction("ForgotPasswordConfirmation", "Account");
 
                 }
-                return RedirectToAction("ForgotPasswordConfirmation", "Account");
+                ModelState.AddModelError("Email", "Invalid Email");
             }
             return View(model);
         }
@@ -172,7 +207,9 @@ namespace Final_Project.Controllers
 
                 if (user != null)
                 {
+
                     var result = await userManager.ResetPasswordAsync(user, model.Token, model.NewPass);
+
 
                     if (result.Succeeded)
                     {
@@ -182,7 +219,7 @@ namespace Final_Project.Controllers
 
                     foreach (var error in result.Errors)
                     {
-                        ModelState.AddModelError("", error.Description); 
+                        ModelState.AddModelError("", error.Description);
                     }
 
                     return View(model);
@@ -192,10 +229,11 @@ namespace Final_Project.Controllers
                 return RedirectToAction("ResetPasswordConfirmation", "Account");
             }
 
-         
+
             return View(model);
         }
         [AllowAnonymous]
+        //m
         public ActionResult ResetPasswordConfirmation()
         {
             return View();
@@ -212,31 +250,31 @@ namespace Final_Project.Controllers
             var subject = "Reset Your Password";
 
             var messageBody = $@"
-            <div style=""font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #333; line-height: 1.5; padding: 20px;"">
-                <h2 style=""color: #007bff; text-align: center;"">Password Reset Request</h2>
-                <p style=""margin-bottom: 20px;"">Hi {user.FName} {user.LName},</p>
+                    <div style=""font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #333; line-height: 1.5; padding: 20px;"">
+                        <h2 style=""color: #007bff; text-align: center;"">Password Reset Request</h2>
+                        <p style=""margin-bottom: 20px;"">Hi {user.FName} {user.LName},</p>
         
-                <p>We received a request to reset your password for your <strong>Dot Net Tutorials</strong> account. If you made this request, please click the button below to reset your password:</p>
+                        <p>We received a request to reset your password for your <strong>Dot Net Tutorials</strong> account. If you made this request, please click the button below to reset your password:</p>
         
-                <div style=""text-align: center; margin: 20px 0;"">
-                    <a href=""{safeLink}"" 
-                       style=""background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block;"">
-                        Reset Password
-                    </a>
-                </div>
+                        <div style=""text-align: center; margin: 20px 0;"">
+                            <a href=""{safeLink}"" 
+                               style=""background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block;"">
+                                Reset Password
+                            </a>
+                        </div>
         
-                <p>If the button above doesn’t work, copy and paste the following URL into your browser:</p>
-                <p style=""background-color: #f8f9fa; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"">
-                    <a href=""{safeLink}"" style=""color: #007bff; text-decoration: none;"">{safeLink}</a>
-                </p>
+                        <p>If the button above doesn’t work, copy and paste the following URL into your browser:</p>
+                        <p style=""background-color: #f8f9fa; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"">
+                            <a href=""{safeLink}"" style=""color: #007bff; text-decoration: none;"">{safeLink}</a>
+                        </p>
         
-                <p>If you did not request to reset your password, please ignore this email or contact support if you have concerns.</p>
+                        <p>If you did not request to reset your password, please ignore this email or contact support if you have concerns.</p>
         
-                <p style=""margin-top: 30px;"">Thank you,<br />The Dot Net Tutorials Team</p>
-            </div>";
+                        <p style=""margin-top: 30px;"">Thank you,<br />The Dot Net Tutorials Team</p>
+                    </div>";
 
             // Send the email
-            await _emailSender.SendEmailAsync(email, subject, messageBody,true);
+            await _emailSender.SendEmailAsync(email, subject, messageBody, true);
         }
     }
 

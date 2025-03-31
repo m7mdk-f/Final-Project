@@ -10758,8 +10758,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pajjm2j48p</Fingerprint>
-      <Integrity>cTYqpQTLiJtTc762Bvh6DkAWLsak6u5//VnedLMPX6c=</Integrity>
+      <Fingerprint>2e34nczipk</Fingerprint>
+      <Integrity>1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\SetPicture.css'))</OriginalItemSpec>
@@ -10818,6 +10818,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.2lhf0t3yi5.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yrifgnc2ms</Fingerprint>
+      <Integrity>zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bbs811juxl</Fingerprint>
+      <Integrity>qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
@@ -10830,8 +10866,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w4xz2jlu1n</Fingerprint>
-      <Integrity>gNBLVJdolOswp+z6FZGo8q3iDxXxo6PtmQ9gb0z5Cmc=</Integrity>
+      <Fingerprint>4b1ivurhea</Fingerprint>
+      <Integrity>4IHKSAY7mUP8llHLvGyodnZ0fTfASVrMmztYWB4uUTE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))</OriginalItemSpec>
