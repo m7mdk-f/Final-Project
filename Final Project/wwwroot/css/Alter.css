@@ -1,0 +1,69 @@
+/* Toast Custom Styling */
+.toast-custom {
+    border: 2px solid #28a745; /* Green border for success */
+    background-color: #1e1e1e; /* Dark background */
+    color: white;
+    max-width: 350px;
+    opacity: 0;
+    transform: translateY(100%); /* Start below the screen */
+    transition: all 0.5s ease; /* Transition for smooth animation */
+}
+
+/* Custom position for the toast */
+.toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%); /* Start below the screen */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at the normal position */
+    }
+}
+
+/* Slide-out animation */
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0); /* Start at the normal position */
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(100%); /* End below the screen */
+    }
+}
+
+/* Apply the animation */
+.toast-show {
+    animation: slideIn 0.5s forwards; /* Slide in */
+}
+
+.toast-hide {
+    animation: slideOut 0.5s forwards; /* Slide out */
+}
+
+/* Icon styles */
+.toast-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Close button style */
+.toast-header .btn-close {
+    color: white;
+}
+
+/* Toast Body Text */
+.toast-custom .toast-body {
+    font-size: 14px;
+}

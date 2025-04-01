@@ -594,6 +594,7 @@ wwwroot\assets\json\typehead\countries.json
 wwwroot\assets\json\typehead\movies.json
 wwwroot\assets\json\typehead\nba.json
 wwwroot\assets\json\typehead\nhl.json
+wwwroot\css\Alter.css
 wwwroot\css\Profile.css
 wwwroot\css\SetPicture.css
 wwwroot\css\site.css

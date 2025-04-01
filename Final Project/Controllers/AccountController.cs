@@ -276,6 +276,8 @@ namespace Final_Project.Controllers
             // Send the email
             await _emailSender.SendEmailAsync(email, subject, messageBody, true);
         }
+
+
     }
 
 }

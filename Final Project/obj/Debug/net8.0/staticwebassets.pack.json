@@ -2389,6 +2389,10 @@
       "PackagePath": "staticwebassets\\assets\\json\\typehead\\nhl.json"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\css\\Alter.css",
+      "PackagePath": "staticwebassets\\css\\Alter.css"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Downloads\\Final Project\\Final Project\\Final Project\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
     },
