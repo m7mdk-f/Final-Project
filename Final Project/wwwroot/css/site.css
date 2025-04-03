@@ -100,10 +100,26 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    .con{
+        width:100%;
+    }
+    .imagetop{
+        display:none;
+    }
+    .header{
+        text-align:center;
+    }
+}
 .position-relative:hover #imageOverlay {
     opacity: 0.5 !important;
 }
 
 .position-relative:hover #cameraIcon {
     opacity: 1 !important;
+}
+
+.spannoimage:hover {
+    text-decoration:underline;
+
 }

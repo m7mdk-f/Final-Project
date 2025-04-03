@@ -49,7 +49,7 @@ namespace Final_Project.Controllers
                     }
                 }
 
-                ModelState.AddModelError("All", "Invalid email or password");
+                ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
 
             return View(model);

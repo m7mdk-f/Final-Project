@@ -10794,8 +10794,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ibqzxngfxo</Fingerprint>
-      <Integrity>/qzzf6eB0scyCxb0KLXXUyB22py0p35OxssYF/AF5dg=</Integrity>
+      <Fingerprint>hx0vly5m00</Fingerprint>
+      <Integrity>ixxB7KML2z2U9gG5tgIMGtfzRK8S4y2qBGQ+cgW0P5o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -10835,42 +10835,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.2lhf0t3yi5.bundle.scp.css'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yrifgnc2ms</Fingerprint>
-      <Integrity>zhgx/ndx0MscJBLi2gzTEygpvcr5D/Ktooayl6uWZAQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3396434c-0ffc-4212-bca6-744fbc9dcb9bprofile.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bbs811juxl</Fingerprint>
-      <Integrity>qckGJcbh03XI7tolvN3R2HMgn+47sb1+qZm0uHXKikE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\99a2ea67-ff9d-49dd-8de6-86588e0ccdf5profile.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))">
       <SourceType>Package</SourceType>

@@ -9,12 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css">
 <link href="~/css/setpicture.css" rel="stylesheet" />
 
-<div class="col-md-8 col-lg-7 col-xl-6">
-    <img src="https://img.freepik.com/free-vector/placeholder-concept-illustration_114360-4983.jpg"
-         class="img-fluid" alt="Phone image">
-</div>
 
-<div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+<div class="col-md-7 col-lg-5 col-xl-5 ">
     <form id="step1" class="step active" method="post" enctype="multipart/form-data" asp-controller="Account" asp-action="SetImageProfile">
         <div class="text-center mb-4  d-flex justify-content-center">
             <div >
@@ -33,7 +29,10 @@
             </div>
         </div>
 
-            <p class="text-muted text-center mt-2">Click the picture to upload a new photo</p>
+            <p class="text-muted text-center mt-2" style="margin:0 0 2px 0 !important;">Click the picture to upload a new photo</p>
+        <div class="text-center mb-3">
+        <a asp-action="index" asp-controller="Home" asp-area="user" class="text-muted   text-center text-decoration-none" style="cursor:pointer;">If you dont want to set image <span class="text-primary spannoimage">click here </span>  </a>
+        </div>
         <div class="position-relative overflow-hidden">
             <button type="submit" id="nextStep" class="btn btn-primary btn-lg w-100">Register</button>
         </div>
@@ -52,7 +51,7 @@
                 <div class="cropper-container">
                     <img id="cropImage" class="w-100 h-100 object-fit-contain">
                 </div>
-                <button class="btn btn-outline-light mt-3" onclick="document.getElementById('imageInput').click()">Change Image</button>
+                <button class="btn btn-outline-light mt-3" onclick="document.getElementById('imageInput').click()" data-bs-dismiss="modal">Change Image</button>
             </div>
             <div class="modal-footer border-0">
                 <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
@@ -95,6 +94,8 @@
                 setTimeout(initCropper, 500);
             };
             reader.readAsDataURL(file);
+            imageInput.value = '';
+
         }
     }
 
@@ -109,7 +110,6 @@
             document.getElementById('finalImage').style.display = 'block';
             document.getElementById('svgIcon').style.display = 'none';
             const imageModal = bootstrap.Modal.getInstance(document.getElementById('imageModal'));
-            document.getElementsByClassName("modal-backdrop ")[0].style.display="none";
             if (imageModal) imageModal.hide();
         }, 'image/jpeg');
     }

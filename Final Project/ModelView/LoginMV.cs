@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Final_Project.ModelView
 {
@@ -11,8 +10,9 @@ namespace Final_Project.ModelView
         [Required]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
-        [Display(Name ="Remember Me")]
+        [Display(Name = "Remember Me")]
         public bool RemeberMe { get; set; } = false;
+        public string? ErrorFiled { get; set; } = string.Empty;
 
     }
 }
