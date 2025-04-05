@@ -10,8 +10,7 @@ namespace Final_Project.Data
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<UserSigin>>();
 
-            string[] roleNames = ["Admin", "User"];
-
+            string[] roleNames = { "Admin", "User" };
             foreach (var roleName in roleNames)
             {
                 var roleExist = await roleManager.RoleExistsAsync(roleName);
