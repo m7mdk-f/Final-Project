@@ -5,6 +5,7 @@ using Final_Project.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Final_Project.Controllers
 {
@@ -21,6 +22,65 @@ namespace Final_Project.Controllers
             this.signInManager = signInManager;
             this._emailSender = emailSender;
             this.webHostEnvironment = webHostEnvironment;
+        }
+        private async Task<GoogleUserInfo> GetGoogleUserInfo(string token)
+        {
+            // Send a request to the Google API to get user info
+            var requestUrl = $"https://www.googleapis.com/oauth2/v3/tokeninfo?id_token={token}";
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(requestUrl);
+
+            // Debug: Log the response from Google to ensure first and last names are included
+            Console.WriteLine(response);
+
+            var googleUser = JsonConvert.DeserializeObject<GoogleUserInfo>(response);
+            return googleUser;
+        }
+        [HttpPost]
+        public async Task<IActionResult> RegisterWithGoogle([FromBody] ExternalLoginModel model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.Token))
+            {
+                return Json(new { success = false, message = "Invalid token" });
+            }
+
+            var googleUser = await GetGoogleUserInfo(model.Token);
+            if (googleUser == null)
+            {
+                return Json(new { success = false, message = "Google authentication failed" });
+            }
+
+            var user = await userManager.FindByEmailAsync(googleUser.Email);
+            if (user == null)
+            {
+                user = new UserSigin
+                {
+                    UserName = googleUser.Email,
+                    Email = googleUser.Email,
+                    FName = googleUser.given_name,
+                    LName = googleUser.family_name,
+                    Imageurl = googleUser.picture
+                };
+
+                var result = await userManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                    await signInManager.SignInAsync(user, false);
+                    return Json(new { success = true });
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("Email", error.Description);
+                    }
+                    return Json(new { success = false, message = "Failed to create user" });
+                }
+            }
+
+            await signInManager.SignInAsync(user, false);
+            return Json(new { success = true });
         }
 
 
@@ -306,6 +366,10 @@ namespace Final_Project.Controllers
         }
 
 
+    }
+    public class ExternalLoginModel
+    {
+        public string Token { get; set; }
     }
 
 }

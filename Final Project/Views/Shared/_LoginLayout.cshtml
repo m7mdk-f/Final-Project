@@ -74,6 +74,9 @@
             .flex-container .form-outline {
                 flex: 1;
             }
+
+
+
     </style>
 
 
@@ -100,10 +103,32 @@
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script>
         function handleCredentialResponse(response) {
-            console.log("Encoded JWT ID token: " + response.credential);
-            // You can send this token to your backend for verification
+            // Extract the token
+            const token = response.credential;
+
+            // Send the token to the server for authentication
+            fetch('@Url.Action("RegisterWithGoogle", "Account")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ token: token })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // If successful, redirect to another page (e.g., Dashboard)
+                    window.location.href = '@Url.Action("Index", "Home", new { area = "User" })';
+                } else {
+                    alert('Authentication failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
         }
     </script>
+
 
 </body>
 </html>

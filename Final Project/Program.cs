@@ -12,13 +12,19 @@ namespace Final_Project
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ApplicationDBContext>(optoin =>
             {
                 string ConnectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
                 optoin.UseSqlServer(ConnectionString);
             });
+            //gmial
+            builder.Services.AddAuthentication().AddGoogle(option =>
+            {
+                option.ClientId = builder.Configuration.GetSection("Authentication:Google:ClientId").Value!;
+                option.ClientSecret = builder.Configuration.GetSection("Authentication:Google:ClientSecret").Value!;
+            });
+            // Add services to the container.
+
 
 
             builder.Services.AddIdentity<UserSigin, IdentityRole>(option =>
@@ -37,6 +43,8 @@ namespace Final_Project
                 options.AddPolicy("RequireTecherRole", policy => policy.RequireRole("Techer"));
 
             });
+
+            builder.Services.AddControllersWithViews();
 
 
             var app = builder.Build();
