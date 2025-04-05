@@ -18,11 +18,12 @@ namespace Final_Project
                 optoin.UseSqlServer(ConnectionString);
             });
             //gmial
-            //builder.Services.AddAuthentication().AddGoogle(option =>
-            //{
-            //    option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com";
-            //    option.ClientSecret = "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";
-            //});
+            builder.Services.AddAuthentication().AddGoogle(option =>
+            {
+                option.ClientId = "clint_id";
+                option.ClientSecret = "ClientSecret";
+            });
+            // Add services to the container.
 
 
 
