@@ -28,16 +28,18 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-        [HttpPost]
 
+        [HttpPost]
         public async Task<IActionResult> Login(LoginMV model)
         {
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByEmailAsync(model.Email);
+
                 if (user != null)
                 {
                     var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RemeberMe, false);
+
                     if (result.Succeeded)
                     {
 
@@ -45,14 +47,14 @@ namespace Final_Project.Controllers
                         {
                             return RedirectToAction("Index", "Home", new { area = "Admin" });
                         }
+                        await signInManager.SignInAsync(user, false);
+
                         return RedirectToAction("Index", "Home", new { area = "User" });
                     }
                 }
-
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
             TempData["error"] = "Mohamed";
-
 
             return View(model);
         }
@@ -61,6 +63,7 @@ namespace Final_Project.Controllers
             return View();
 
         }
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterMV model, string? id = "user")
         {
@@ -112,7 +115,6 @@ namespace Final_Project.Controllers
                     return RedirectToAction("SetImageProfile", "Account");
                 }
             }
-
             return View(model);
         }
 
@@ -141,7 +143,9 @@ namespace Final_Project.Controllers
                     ModelState.AddModelError("", "");
                     return View(model);
                 }
+
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
+
                 var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
                 await model.ImageUrl.CopyToAsync(fs1);
                 var user = await userManager.GetUserAsync(User);
@@ -161,9 +165,9 @@ namespace Final_Project.Controllers
                 }
 
             }
-
             return View(model);
         }
+
         public async Task<IActionResult> Siginout()
         {
             await signInManager.SignOutAsync();
