@@ -12,6 +12,9 @@ namespace Final_Project.Areas.Controllers
             return View();
         }
 
-        
+        public IActionResult Heema()
+        {
+            return View();
+        }
     }
 }
