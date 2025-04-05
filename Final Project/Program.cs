@@ -16,7 +16,7 @@ namespace Final_Project
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ApplicationDBContext>(optoin =>
             {
-                string ConnectionString = builder.Configuration.GetConnectionString("FinalApp")!;
+                string ConnectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
                 optoin.UseSqlServer(ConnectionString);
             });
 
@@ -37,7 +37,7 @@ namespace Final_Project
             });
 
 
-         
+
 
 
 
