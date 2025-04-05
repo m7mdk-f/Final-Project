@@ -702,6 +702,7 @@ wwwroot\css\Profile.css
 wwwroot\css\SetPicture.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg
 wwwroot\images\7698d735-878c-47bc-8a07-024f38c64a1cprofile.jpg
 wwwroot\images\a8f625d4-d23e-4dfa-9904-43282dbd8edbprofile.jpg
 wwwroot\images\fbfea2bb-7d19-4d59-8e66-9de6c3645db8profile.jpg

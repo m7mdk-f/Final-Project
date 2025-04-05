@@ -12690,6 +12690,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.p03964g4nu.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fmdg309qs3</Fingerprint>
+      <Integrity>95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7698d735-878c-47bc-8a07-024f38c64a1cprofile.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
