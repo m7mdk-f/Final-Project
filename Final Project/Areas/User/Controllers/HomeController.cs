@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Final_Project.Areas.Controllers
 {
-    [Area("user")]
-    [Authorize]
+    [Area("User")]
+    [Authorize(Roles = "User")]
     public class HomeController : Controller
     {
         public IActionResult Index()
@@ -12,6 +12,6 @@ namespace Final_Project.Areas.Controllers
             return View();
         }
 
-        
+
     }
 }

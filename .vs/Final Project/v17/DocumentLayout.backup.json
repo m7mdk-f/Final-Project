@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GitHubWork\\Final-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAlwHcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:16:25.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\appsettings.json",
               "RelativeDocumentMoniker": "Final Project\\appsettings.json",
@@ -50,25 +67,23 @@
               "RelativeToolTip": "Final Project\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T11:17:08.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T11:17:08.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
               "RelativeDocumentMoniker": "Final Project\\Program.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs*",
-              "RelativeToolTip": "Final Project\\Program.cs*",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
+              "RelativeToolTip": "Final Project\\Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:17:00.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T11:17:00.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.css",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
               "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\css\\main.css",
@@ -76,8 +91,7 @@
               "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\main.css",
               "ViewState": "AgIAAEgAAAAAAAAAAAAswCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-05T11:13:47.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T11:13:47.714Z"
             }
           ]
         },

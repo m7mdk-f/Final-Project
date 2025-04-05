@@ -28,18 +28,16 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-
         [HttpPost]
+
         public async Task<IActionResult> Login(LoginMV model)
         {
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByEmailAsync(model.Email);
-
                 if (user != null)
                 {
                     var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RemeberMe, false);
-
                     if (result.Succeeded)
                     {
 
@@ -50,20 +48,21 @@ namespace Final_Project.Controllers
                         return RedirectToAction("Index", "Home", new { area = "User" });
                     }
                 }
+
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
+            TempData["error"] = "Mohamed";
+
 
             return View(model);
         }
-
-        public IActionResult Register()
+        public IActionResult Register(string? id = "user")
         {
             return View();
 
         }
-
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterMV model)
+        public async Task<IActionResult> Register(RegisterMV model, string? id = "user")
         {
             if (ModelState.IsValid)
             {
@@ -99,9 +98,21 @@ namespace Final_Project.Controllers
                     }
                     return View(model);
                 }
-                await signInManager.SignInAsync(user, false);
-                return RedirectToAction("SetImageProfile", "Account");
+                if (id.Trim() == "Techer")
+                {
+                    await userManager.AddToRoleAsync(user, "Techer");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
+
+                }
+                else
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
+                }
             }
+
             return View(model);
         }
 
@@ -110,40 +121,49 @@ namespace Final_Project.Controllers
             return View();
         }
 
+
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> SetImageProfile(RegisterMV model)
         {
             if (model.ImageUrl != null)
             {
-
                 string subFolderPath = "images";
                 int filesize = 5;
                 string[] allowfileExtension = [".jpg", "jpeg", ".png"];
                 if (model.ImageUrl.Length > filesize * 1024 * 1024)
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
-
-                if (allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
+                if (!allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
-
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
-
                 var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
                 await model.ImageUrl.CopyToAsync(fs1);
                 var user = await userManager.GetUserAsync(User);
                 user.Imageurl = "/" + subFolderPath + "/" + fileName;
                 await userManager.UpdateAsync(user);
 
-                return RedirectToAction("index", "home", new { area = "User" });
+                var results = await userManager.GetRolesAsync(user);
+                if (results.Contains("User"))
+                {
+                    return RedirectToAction("index", "home", new { area = "User" });
+
+                }
+                if (results.Contains("Techer"))
+                {
+                    return RedirectToAction("index", "home", new { area = "Techer" });
+
+                }
 
             }
+
             return View(model);
         }
-
         public async Task<IActionResult> Siginout()
         {
             await signInManager.SignOutAsync();
