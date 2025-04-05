@@ -20,8 +20,8 @@ namespace Final_Project
             //gmial
             builder.Services.AddAuthentication().AddGoogle(option =>
             {
-                option.ClientId = builder.Configuration.GetSection("Authentication:Google:ClientId").Value!;
-                option.ClientSecret = builder.Configuration.GetSection("Authentication:Google:ClientSecret").Value!;
+                option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com";
+                option.ClientSecret = "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";
             });
             // Add services to the container.
 
