@@ -1,139 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHubWork\\Final-Project\\",
+  "WorkspaceRootPath": "F:\\ASPCore\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\views\\home\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\home\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\modelview\\editprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\modelview\\editprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\views\\account\\setimageprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\account\\setimageprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|f:\\aspcore\\final project\\final project\\wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 142,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T10:17:13.885Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
-              "RelativeDocumentMoniker": "Final Project\\Program.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
-              "RelativeToolTip": "Final Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAawBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:36:12.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Final Project\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:33:01.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditProfileVM.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\ModelView\\EditProfileVM.cs",
-              "RelativeDocumentMoniker": "Final Project\\ModelView\\EditProfileVM.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\ModelView\\EditProfileVM.cs",
-              "RelativeToolTip": "Final Project\\ModelView\\EditProfileVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:29:18.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SetImageProfile.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\SetImageProfile.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Account\\SetImageProfile.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\SetImageProfile.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Account\\SetImageProfile.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T09:20:36.545Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfileView.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Home\\ProfileView.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Home\\ProfileView.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Home\\ProfileView.cshtml",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Home\\ProfileView.cshtml",
-              "ViewState": "AgIAAG4BAAAAAAAAAAAUwIEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T08:51:21.471Z",
+              "Title": "main.css",
+              "DocumentMoniker": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\css\\main.css",
+              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\css\\main.css",
+              "ToolTip": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\css\\main.css",
+              "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\main.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-04T22:00:51.52Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1858,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAASwFUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T08:50:53.725Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -1,2647 +1,683 @@
 {
   "Files": [
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final Project.bundle.scp.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Final Project.2lhf0t3yi5.bundle.scp.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\landing.css",
-      "PackagePath": "staticwebassets\\assets\\css\\landing.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\animate.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\autoFill.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\autoFill.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\bootstrap-slider.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-slider.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\bootstrap-switch-button.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap-switch-button.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course-1.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\buttons.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\buttons.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course-3.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\colReorder.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\colReorder.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course-details.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\croppr.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\croppr.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\events-item-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\events-item-1.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\dataTables.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dataTables.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\events-item-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\events-item-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\datepicker-bs5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\datepicker-bs5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\dragula.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dragula.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\dropzone.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\dropzone.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\fixedColumns.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fixedColumns.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-1.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\fixedHeader.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fixedHeader.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-2.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\flatpickr.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\flatpickr.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-3.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\introjs.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\introjs.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-4.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\jsvectormap.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jsvectormap.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-5.png"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\keyTable.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\keyTable.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\notifier.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\notifier.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\nouislider.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\nouislider.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\prism-coy.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\prism-coy.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\quill.bubble.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.bubble.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-5.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\quill.core.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.core.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-6.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\quill.snow.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\quill.snow.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\responsive.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\responsive.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\rowReorder.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\rowReorder.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\scroller.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\scroller.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\select.bootstrap5.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select.bootstrap5.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\simplemde.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\simplemde.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-1-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\style.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\style.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-1.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\tiny-slider.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\tiny-slider.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-2-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\uppy.min.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\uppy.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\plugins\\vanillatree.css",
-      "PackagePath": "staticwebassets\\assets\\css\\plugins\\vanillatree.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-3-2.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\style-preset.css",
-      "PackagePath": "staticwebassets\\assets\\css\\style-preset.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-3.jpg"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\style.css",
-      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\uikit.css",
-      "PackagePath": "staticwebassets\\assets\\css\\uikit.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\feather.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\feather.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\feather\\feather.eot",
-      "PackagePath": "staticwebassets\\assets\\fonts\\feather\\feather.eot"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\feather\\feather.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\feather\\feather.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\feather\\feather.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\feather\\feather.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\feather\\feather.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\feather\\feather.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.eot",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.eot"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.eot",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.eot"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.eot",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.eot"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\inter\\Inter-italic.var.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\inter\\Inter-italic.var.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\inter\\Inter-roman.var.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\inter\\Inter-roman.var.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\inter\\inter.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\inter\\inter.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\material.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\material.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\material\\material.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\material\\material.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\phosphor\\duotone\\Phosphor-Duotone.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\phosphor\\duotone\\selection.json",
-      "PackagePath": "staticwebassets\\assets\\fonts\\phosphor\\duotone\\selection.json"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\phosphor\\duotone\\style.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\phosphor\\duotone\\style.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler-icons.min.css",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler-icons.min.css"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler\\tabler-icons.eot",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler\\tabler-icons.eot"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler\\tabler-icons.svg",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler\\tabler-icons.svg"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler\\tabler-icons.ttf",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler\\tabler-icons.ttf"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler\\tabler-icons.woff",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler\\tabler-icons.woff"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\fonts\\tabler\\tabler-icons.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\tabler\\tabler-icons.woff2"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\card-discover.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\card-discover.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\card-master.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\card-master.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\card-visa.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\card-visa.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\card.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\card.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\cod.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\cod.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\completed.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\completed.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\discount.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\discount.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\prb.txt"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-catalog1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-catalog1.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-catalog2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-catalog2.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-catalog3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-catalog3.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-empty-mail.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-empty-mail.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-1.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-10.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-10.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-11.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-11.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-12.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-12.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-2.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-3.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-4.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-5.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-6.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-7.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-8.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\img-gal-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\img-gal-9.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\mastercard.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\mastercard.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\paypal.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\paypal.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-1.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-2.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-3.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-4.png"
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-5.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-6.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-7.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-8.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\prod-img-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\prod-img-9.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-1.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-10.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-10.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-11.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-11.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-12.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-12.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-2.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-3.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-4.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-5.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-6.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-7.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-8.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\profile-back-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\profile-back-9.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\application\\visa.png",
-      "PackagePath": "staticwebassets\\assets\\images\\application\\visa.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\authentication\\facebook.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\authentication\\facebook.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\authentication\\google.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\authentication\\google.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\authentication\\img-auth-bg.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\authentication\\img-auth-bg.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\authentication\\twitter.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\authentication\\twitter.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\container.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\container.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\dark.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\dark.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\default.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\default.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\mini-menu.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\mini-menu.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\rtl.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\rtl.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\customization\\theme-color.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\customization\\theme-color.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\favicon.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\favicon.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\img-navbar-card.png",
-      "PackagePath": "staticwebassets\\assets\\images\\img-navbar-card.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-1.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-2.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-3.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-4.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-5.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-6.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-7.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-8.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\bg-mockup-theme-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\bg-mockup-theme-9.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\client-01.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\client-01.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\client-02.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\client-02.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\client-03.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\client-03.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\client-04.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\client-04.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\client-05.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\client-05.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-bg-screen.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-bg-screen.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-demo1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-demo1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-demo2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-demo2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-demo3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-demo3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-1.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-2.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-3.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-4.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-5.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-6.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-7.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-8.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-main-theme-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-main-theme-9.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-msg.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-msg.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-element-widget.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-element-widget.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-feature1.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-feature1.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-feature2.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-feature2.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-feature3.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-feature3.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-1.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-2.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-3.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-4.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-5.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-6.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-7.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-8.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-footer-moke-9.png",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-footer-moke-9.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-headertech.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-headertech.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-7.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-7.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-8.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-8.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-dark-9.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-dark-9.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-7.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-7.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-8.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-8.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-theme-light-9.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-theme-light-9.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\landing\\img-user1.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\landing\\img-user1.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\l6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\l6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\mixin.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\mixin.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\sl6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\sl6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\smixin.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\smixin.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\v1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\v2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\v3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\light-box\\v4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\light-box\\v4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\logo-dark.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\logo-icon.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\logo-white.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\logo-white.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\mega-menu\\back.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\back.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\mega-menu\\chart.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\chart.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\notification\\clock-48.png",
-      "PackagePath": "staticwebassets\\assets\\images\\notification\\clock-48.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\notification\\high_priority-48.png",
-      "PackagePath": "staticwebassets\\assets\\images\\notification\\high_priority-48.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\notification\\medium_priority-48.png",
-      "PackagePath": "staticwebassets\\assets\\images\\notification\\medium_priority-48.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\notification\\ok-48.png",
-      "PackagePath": "staticwebassets\\assets\\images\\notification\\ok-48.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\notification\\survey-48.png",
-      "PackagePath": "staticwebassets\\assets\\images\\notification\\survey-48.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\Error404.png",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\Error404.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\Error500.png",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\Error500.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\TwoCone.png",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\TwoCone.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\codedthemes-logo.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\codedthemes-logo.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\coming-soon.png",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\coming-soon.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\img-megamenu.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\img-megamenu.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\img-price-extended.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\img-price-extended.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\img-price-standard.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\img-price-standard.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\img-price-standardplus.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\img-price-standardplus.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\under-construction-2.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\under-construction-2.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\pages\\worldMap.png",
-      "PackagePath": "staticwebassets\\assets\\images\\pages\\worldMap.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\profile\\card.png",
-      "PackagePath": "staticwebassets\\assets\\images\\profile\\card.png"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\profile\\img-profile-bottom.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\profile\\img-profile-bottom.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\profile\\img-profile-top.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\profile\\img-profile-top.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\header-bg.07dde975.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\header-bg.07dde975.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\slider\\img-slide-7.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\slider\\img-slide-7.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-10.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-10.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-5.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-6.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-7.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-7.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-8.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-8.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\user\\avatar-9.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\user\\avatar-9.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\AUSTRALIA.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\AUSTRALIA.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\BRAZIL.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\BRAZIL.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\GERMANY.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\GERMANY.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\PHONE1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\PHONE2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\PHONE3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\PHONE4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\PHONE4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\UK.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\UK.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\USA.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\USA.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\dashborad-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\dashborad-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\dashborad-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\dashborad-3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\p1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\p1.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\p2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\p2.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\p3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\p3.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\p4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\p4.jpg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\reader.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\reader.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\images\\widget\\target.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\widget\\target.svg"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\component.js",
-      "PackagePath": "staticwebassets\\assets\\js\\component.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\fonts\\custom-font.js",
-      "PackagePath": "staticwebassets\\assets\\js\\fonts\\custom-font.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\layout-compact.js",
-      "PackagePath": "staticwebassets\\assets\\js\\layout-compact.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\layout-horizontal.js",
-      "PackagePath": "staticwebassets\\assets\\js\\layout-horizontal.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\layout-tab.js",
-      "PackagePath": "staticwebassets\\assets\\js\\layout-tab.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-alert.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-alert.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-datepicker.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-datepicker.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-notification.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-notification.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-rangeslider.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-rangeslider.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-slider.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-slider.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-tour.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-tour.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\ac-treeview.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\ac-treeview.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\calendar.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\calendar.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\canada.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\canada.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\chart-apex.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\chart-apex.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\dashboard-analytics.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\dashboard-analytics.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\dashboard-default.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\dashboard-default.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\form-masking-custom.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\form-masking-custom.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\form-validation.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\form-validation.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\iraq.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\iraq.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\italy.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\italy.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\map-vector.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\map-vector.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\page-croper.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\page-croper.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\russia.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\russia.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\spain.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\spain.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\us-aea-en.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\us-aea-en.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\us-lcc-en.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\us-lcc-en.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\us-merc-en.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\us-merc-en.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\us-mill-en.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\us-mill-en.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pages\\w-chart.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pages\\w-chart.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\pcoded.js",
-      "PackagePath": "staticwebassets\\assets\\js\\pcoded.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\Jarallax.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\Jarallax.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\apexcharts.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\apexcharts.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\autoFill.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\autoFill.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\bootstrap-slider.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-slider.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\bootstrap-switch-button.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-switch-button.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\bouncer.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bouncer.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\buttons.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\buttons.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\buttons.colVis.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\buttons.colVis.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\buttons.html5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\buttons.html5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\buttons.print.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\buttons.print.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\choices.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\choices.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\ckeditor\\balloon\\ckeditor.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ckeditor\\balloon\\ckeditor.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\ckeditor\\classic\\ckeditor.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ckeditor\\classic\\ckeditor.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\ckeditor\\document\\ckeditor.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ckeditor\\document\\ckeditor.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\ckeditor\\inline\\ckeditor.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\ckeditor\\inline\\ckeditor.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\clipboard.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\clipboard.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\croppr.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\croppr.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.autoFill.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.autoFill.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.buttons.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.buttons.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.colReorder.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.colReorder.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.fixedColumns.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.fixedColumns.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.fixedHeader.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.fixedHeader.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.keyTable.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.keyTable.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.responsive.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.responsive.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.rowReorder.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.rowReorder.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dataTables.select.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dataTables.select.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\datepicker-full.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\datepicker-full.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dragula.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dragula.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\dropzone-amd-module.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\dropzone-amd-module.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\feather.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\feather.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\flatpickr.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\flatpickr.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\gmaps.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\gmaps.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\imask.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\imask.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\index.global.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\index.global.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\intro.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\intro.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\isotope.pkgd.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\isotope.pkgd.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\jquery.dataTables.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.dataTables.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\jsvectormap.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jsvectormap.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\jszip.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jszip.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\keyTable.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\keyTable.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\module.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\module.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\notifier.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\notifier.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\nouislider.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\nouislider.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\pdfmake.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\pdfmake.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\popper.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\popper.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\prism.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\prism.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\quill.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\quill.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\responsive.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\responsive.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\scroller.bootstrap5.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\scroller.bootstrap5.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\simple-datatables.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\simple-datatables.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\simplebar.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\simplebar.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\simplemde.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\simplemde.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\sweetalert2.all.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\sweetalert2.all.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tiny-slider.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tiny-slider.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\CHANGELOG.md",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\CHANGELOG.md"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\README.md",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\README.md"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\bower.json",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\bower.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\composer.json",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\composer.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\icons\\default\\icons.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\icons\\default\\icons.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\icons\\default\\icons.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\icons\\default\\icons.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\icons\\default\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\icons\\default\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\license.txt",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\license.txt"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\models\\dom\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\models\\dom\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\models\\dom\\model.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\models\\dom\\model.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\models\\dom\\model.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\models\\dom\\model.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\package.json",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\package.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\accordion\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\code\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\code\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\code\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\code\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\code\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\code\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\help\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\help\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\image\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\image\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\image\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\image\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\image\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\image\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\link\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\link\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\link\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\link\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\link\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\link\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\lists\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\lists\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\lists\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\media\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\media\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\media\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\media\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\media\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\media\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\preview\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\preview\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\preview\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\print\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\print\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\quickbars\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\save\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\save\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\save\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\save\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\save\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\save\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\table\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\table\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\table\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\table\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\table\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\table\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\template\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\template\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\template\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\template\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\template\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\template\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\default\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\document\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\content\\writer\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\themes\\silver\\index.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\themes\\silver\\index.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\themes\\silver\\theme.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\themes\\silver\\theme.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\themes\\silver\\theme.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\themes\\silver\\theme.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\tinymce.d.ts",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\tinymce.d.ts"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\tinymce.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\tinymce.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\tinymce\\tinymce.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\tinymce\\tinymce.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\type-ahead.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\type-ahead.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\uppy.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\uppy.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\vanillatree.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\vanillatree.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\vfs_fonts.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\vfs_fonts.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\wNumb.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\wNumb.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\world-merc.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\world-merc.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\world.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\world.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\plugins\\wow.min.js",
-      "PackagePath": "staticwebassets\\assets\\js\\plugins\\wow.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\2500.txt",
-      "PackagePath": "staticwebassets\\assets\\json\\2500.txt"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\datatable.column.json",
-      "PackagePath": "staticwebassets\\assets\\json\\datatable.column.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\datatable.json",
-      "PackagePath": "staticwebassets\\assets\\json\\datatable.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\file-upload.php",
-      "PackagePath": "staticwebassets\\assets\\json\\file-upload.php"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\lazy.json",
-      "PackagePath": "staticwebassets\\assets\\json\\lazy.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\root.json",
-      "PackagePath": "staticwebassets\\assets\\json\\root.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\typehead\\countries.json",
-      "PackagePath": "staticwebassets\\assets\\json\\typehead\\countries.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\typehead\\movies.json",
-      "PackagePath": "staticwebassets\\assets\\json\\typehead\\movies.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\typehead\\nba.json",
-      "PackagePath": "staticwebassets\\assets\\json\\typehead\\nba.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\json\\typehead\\nhl.json",
-      "PackagePath": "staticwebassets\\assets\\json\\typehead\\nhl.json"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Alter.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\Alter.css",
       "PackagePath": "staticwebassets\\css\\Alter.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Profile.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\SetPicture.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\SetPicture.css",
       "PackagePath": "staticwebassets\\css\\SetPicture.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\site.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\favicon.ico",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\SetPicture.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\images\\dae32b4e-54b2-4bcf-803b-d77bfcd60082profile.jpg",
+      "PackagePath": "staticwebassets\\images\\dae32b4e-54b2-4bcf-803b-d77bfcd60082profile.jpg"
+    },
+    {
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\images\\eaaa7c97-aa26-442c-a521-05d14212393dprofile.jpg",
+      "PackagePath": "staticwebassets\\images\\eaaa7c97-aa26-442c-a521-05d14212393dprofile.jpg"
+    },
+    {
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
       "PackagePath": "staticwebassets\\js\\SetPicture.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\site.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -28,16 +28,18 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-        [HttpPost]
 
+        [HttpPost]
         public async Task<IActionResult> Login(LoginMV model)
         {
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByEmailAsync(model.Email);
+
                 if (user != null)
                 {
                     var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RemeberMe, false);
+
                     if (result.Succeeded)
                     {
 
@@ -48,17 +50,18 @@ namespace Final_Project.Controllers
                         return RedirectToAction("Index", "Home", new { area = "User" });
                     }
                 }
-
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
 
             return View(model);
         }
+
         public IActionResult Register()
         {
             return View();
 
         }
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterMV model)
         {
@@ -93,17 +96,15 @@ namespace Final_Project.Controllers
                     foreach (var item in results.Errors)
                     {
                         ModelState.AddModelError("Password", item.Description);
-
                     }
                     return View(model);
                 }
-
                 await signInManager.SignInAsync(user, false);
                 return RedirectToAction("SetImageProfile", "Account");
             }
-
             return View(model);
         }
+
         public async Task<IActionResult> SetImageProfile()
         {
             return View();
@@ -123,11 +124,14 @@ namespace Final_Project.Controllers
                 {
 
                 }
+
                 if (allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
                 {
 
                 }
+
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
+
                 var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
                 await model.ImageUrl.CopyToAsync(fs1);
                 var user = await userManager.GetUserAsync(User);
@@ -137,9 +141,9 @@ namespace Final_Project.Controllers
                 return RedirectToAction("index", "home", new { area = "User" });
 
             }
-
             return View(model);
         }
+
         public async Task<IActionResult> Siginout()
         {
             await signInManager.SignOutAsync();

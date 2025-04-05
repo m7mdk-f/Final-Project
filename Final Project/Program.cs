@@ -16,7 +16,7 @@ namespace Final_Project
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ApplicationDBContext>(optoin =>
             {
-                string ConnectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
+                string ConnectionString = builder.Configuration.GetConnectionString("FinalApp")!;
                 optoin.UseSqlServer(ConnectionString);
             });
 
@@ -49,7 +49,6 @@ namespace Final_Project
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
