@@ -39,10 +39,7 @@ namespace Final_Project
             });
 
 
-
-
             var app = builder.Build();
-
 
 
             if (!app.Environment.IsDevelopment())
