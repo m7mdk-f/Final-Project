@@ -1,683 +1,683 @@
 {
   "Files": [
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final Project.bundle.scp.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Final Project.2lhf0t3yi5.bundle.scp.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\css\\main.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\about-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\about-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\about.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\about.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-1.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\course-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course-1.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\course-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-3.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\course-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course-3.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\course-details.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\course-details.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course-details.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\events-item-1.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\events-item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\events-item-1.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\events-item-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\events-item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\events-item-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\favicon.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\logo.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-1.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-1.png",
       "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-1.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-2.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-2.png",
       "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-2.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-3.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-3.png",
       "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-3.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-4.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-4.png",
       "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-4.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-5.png",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\tabs\\tab-5.png",
       "PackagePath": "staticwebassets\\assets\\img\\tabs\\tab-5.png"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-5.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-5.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\team\\team-6.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\team\\team-6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-6.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-1-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-1.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-2-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3-2.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-3-2.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\trainers\\trainer-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\trainers\\trainer-3.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\js\\main.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\scss\\Readme.txt",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\scss\\Readme.txt",
       "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\prb.txt",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\css\\prb.txt",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\prb.txt"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\Alter.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Alter.css",
       "PackagePath": "staticwebassets\\css\\Alter.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\Profile.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\SetPicture.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\SetPicture.css",
       "PackagePath": "staticwebassets\\css\\SetPicture.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\css\\site.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\favicon.ico",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\images\\dae32b4e-54b2-4bcf-803b-d77bfcd60082profile.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\dae32b4e-54b2-4bcf-803b-d77bfcd60082profile.jpg",
       "PackagePath": "staticwebassets\\images\\dae32b4e-54b2-4bcf-803b-d77bfcd60082profile.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\images\\eaaa7c97-aa26-442c-a521-05d14212393dprofile.jpg",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\eaaa7c97-aa26-442c-a521-05d14212393dprofile.jpg",
       "PackagePath": "staticwebassets\\images\\eaaa7c97-aa26-442c-a521-05d14212393dprofile.jpg"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\js\\SetPicture.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\SetPicture.js",
       "PackagePath": "staticwebassets\\js\\SetPicture.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\js\\site.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\ASPCore\\Final Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
