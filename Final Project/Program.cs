@@ -34,10 +34,9 @@ namespace Final_Project
             {
                 options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
                 options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
+                options.AddPolicy("RequireTecherRole", policy => policy.RequireRole("Techer"));
+
             });
-
-
-         
 
 
 
@@ -45,7 +44,6 @@ namespace Final_Project
 
 
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -75,6 +73,10 @@ namespace Final_Project
                 areaName: "User",
                 pattern: "User/{controller=Home}/{action=Index}/{id?}");
 
+            app.MapAreaControllerRoute(
+         name: "Techer",
+         areaName: "Techer",
+         pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
             name: "default",

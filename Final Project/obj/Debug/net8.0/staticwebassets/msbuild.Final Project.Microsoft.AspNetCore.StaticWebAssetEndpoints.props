@@ -7216,13 +7216,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.2lhf0t3yi5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2lhf0t3yi5"},{"Name":"integrity","Value":"sha256-OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A="},{"Name":"label","Value":"_content/Final Project/Final Project.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3416"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 13:09:07 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3416"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Apr 2025 13:38:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Final Project/Final Project.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.2lhf0t3yi5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3416"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 13:09:07 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3416"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OrVYgcCo7e6UtHt9Ag\u002BPTMoI0GJzyGtvsI5SQE7qs/A=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Apr 2025 13:38:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Final Project/js/SetPicture.4b1ivurhea.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))</AssetFile>

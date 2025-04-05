@@ -114,7 +114,23 @@ namespace Final_Project.Areas.Admin.Controllers
             ModelState.AddModelError("ImageUrl", "Please upload a valid image.");
             return View(model);
         }
+        public async Task<IActionResult> RemoveImage()
+        {
+            var user = await userManager.GetUserAsync(User);
+            if (!string.IsNullOrEmpty(user!.Imageurl))
+            {
+                string filePath = Path.Combine(hostEnvironment.WebRootPath, user.Imageurl.TrimStart('/'));
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+            }
+            user!.Imageurl = "";
+            await userManager.UpdateAsync(user);
 
+
+            return RedirectToAction("ProfileView", "Home", new { area = "Admin" });
+        }
 
     }
 

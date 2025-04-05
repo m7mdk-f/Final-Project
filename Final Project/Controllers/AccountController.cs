@@ -51,16 +51,18 @@ namespace Final_Project.Controllers
 
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
+            TempData["error"] = "Mohamed";
+
 
             return View(model);
         }
-        public IActionResult Register()
+        public IActionResult Register(string? id = "user")
         {
             return View();
 
         }
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterMV model)
+        public async Task<IActionResult> Register(RegisterMV model, string? id = "user")
         {
             if (ModelState.IsValid)
             {
@@ -93,21 +95,32 @@ namespace Final_Project.Controllers
                     foreach (var item in results.Errors)
                     {
                         ModelState.AddModelError("Password", item.Description);
-
                     }
                     return View(model);
                 }
+                if (id.Trim() == "Techer")
+                {
+                    await userManager.AddToRoleAsync(user, "Techer");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
 
-                await signInManager.SignInAsync(user, false);
-                return RedirectToAction("SetImageProfile", "Account");
+                }
+                else
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
+                }
             }
 
             return View(model);
         }
+
         public async Task<IActionResult> SetImageProfile()
         {
             return View();
         }
+
 
         [HttpPost]
         [Authorize]
@@ -115,17 +128,18 @@ namespace Final_Project.Controllers
         {
             if (model.ImageUrl != null)
             {
-
                 string subFolderPath = "images";
                 int filesize = 5;
                 string[] allowfileExtension = [".jpg", "jpeg", ".png"];
                 if (model.ImageUrl.Length > filesize * 1024 * 1024)
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
-                if (allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
+                if (!allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
                 var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
@@ -134,7 +148,17 @@ namespace Final_Project.Controllers
                 user.Imageurl = "/" + subFolderPath + "/" + fileName;
                 await userManager.UpdateAsync(user);
 
-                return RedirectToAction("index", "home", new { area = "User" });
+                var results = await userManager.GetRolesAsync(user);
+                if (results.Contains("User"))
+                {
+                    return RedirectToAction("index", "home", new { area = "User" });
+
+                }
+                if (results.Contains("Techer"))
+                {
+                    return RedirectToAction("index", "home", new { area = "Techer" });
+
+                }
 
             }
 

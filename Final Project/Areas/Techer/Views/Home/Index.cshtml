@@ -1,0 +1,11 @@
+﻿@using Final_Project.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<UserSigin> userManager;
+
+@{
+	var user =await userManager.GetUserAsync(User);
+
+}
+
+<h1>Welcom To Techer Area</h1>
+<img src="@user!.Imageurl" alt="Alternate Text" />
