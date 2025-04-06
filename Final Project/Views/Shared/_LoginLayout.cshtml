@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Final_Project.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-  
+
 
     <style>
         .custom-floating-label {
@@ -76,8 +77,6 @@
                 flex: 1;
             }
 
-
-
     </style>
 
 
@@ -88,7 +87,7 @@
     <section class="vh-100">
         <div class="container py-5 h-100">
             <div class="row d-flex align-items-center justify-content-center h-100">
-               
+
                 @RenderBody()
 
             </div>
@@ -127,7 +126,31 @@
                 console.error('Error:', error);
             });
         }
+
+
+
+        //Show and hidden password
+          document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.toggle-password').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    const container = button.closest('.form-floating');
+                    const passwordInput = container.querySelector('.password-input');
+                    const passwordIcon = button.querySelector('.password-icon');
+
+                    if (passwordInput.type === 'password') {
+                        passwordInput.type = 'text';
+                        passwordIcon.classList.remove('bi-eye-slash');
+                        passwordIcon.classList.add('bi-eye');
+                    } else {
+                        passwordInput.type = 'password';
+                        passwordIcon.classList.remove('bi-eye');
+                        passwordIcon.classList.add('bi-eye-slash');
+                    }
+                });
+            });
+        });
     </script>
+
 
 
 </body>

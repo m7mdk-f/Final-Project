@@ -5,9 +5,9 @@
 }
 
 <style>
-    ul{
-        list-style:none !important;
-        text-align:center !important;
+    ul {
+        list-style: none !important;
+        text-align: center !important;
     }
 </style>
 @model LoginMV
@@ -17,7 +17,7 @@
          class="img-fluid" alt="Phone image">
 </div>
  *@
-<div class="col-md-8  col-lg-7 col-xl-6 con imagetop " >
+<div class="col-md-8  col-lg-7 col-xl-6 con imagetop ">
     <img src="https://img.freepik.com/premium-vector/man-sits-front-phone-that-says-logitech_1314854-10316.jpg?w=740"
          class="img-fluid" alt="Phone image">
 </div>
@@ -31,7 +31,7 @@
 
         <!-- Email Field -->
         <div class="form-floating mb-3">
-            <input asp-for="Email" class="form-control" id="email" placeholder="Email"  autofocus>
+            <input asp-for="Email" class="form-control" id="email" placeholder="Email" autofocus>
             <label asp-for="Email">Email</label>
             <span asp-validation-for="Email" class="text-danger"></span>
 
@@ -39,12 +39,14 @@
 
         <!-- Password Field -->
         <div class="form-floating mb-3">
-            <input asp-for="Password" class="form-control" id="Password" placeholder="Password" >
+            <input asp-for="Password" class="form-control password-input" id="Password" placeholder="Password" type="password" />
             <label asp-for="Password">Password</label>
-            <span class="text-danger" asp-validation-for="Password">
-
-            </span>
+            <button type="button" class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 20px;">
+                <i class="bi bi-eye-slash password-icon"></i>
+            </button>
+            <span class="text-danger" asp-validation-for="Password"></span>
         </div>
+
 
         <!-- Remember Me Checkbox -->
         <div class="d-flex justify-content-between align-items-center mb-4">
@@ -78,6 +80,8 @@
         <p class="text-center mt-3">Don't have an account? <a asp-action="Register" asp-controller="Account">Create one</a> </p>
     </form>
 </div>
-@section Scripts{
+
+
+@section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

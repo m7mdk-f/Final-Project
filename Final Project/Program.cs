@@ -14,14 +14,15 @@ namespace Final_Project
 
             builder.Services.AddDbContext<ApplicationDBContext>(optoin =>
             {
-                string ConnectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
+                string ConnectionString = builder.Configuration.GetConnectionString("FinalApp")!;
                 optoin.UseSqlServer(ConnectionString);
             });
+
             //gmial
             builder.Services.AddAuthentication().AddGoogle(option =>
             {
-                option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com\r\n";
-                option.ClientSecret = "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";
+                option.ClientId = builder.Configuration["Authentication:Google:ClientId"]!;
+                option.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"]!;
             });
 
             //Add services to the container.
@@ -79,9 +80,9 @@ namespace Final_Project
                 pattern: "User/{controller=Home}/{action=Index}/{id?}");
 
             app.MapAreaControllerRoute(
-         name: "Techer",
-         areaName: "Techer",
-         pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
+                name: "Techer",
+                areaName: "Techer",
+                pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
             name: "default",
