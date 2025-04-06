@@ -18,23 +18,23 @@ namespace Final_Project
                 optoin.UseSqlServer(ConnectionString);
             });
             //gmial
-            //builder.Services.AddAuthentication().AddGoogle(option =>
-            //{
-            //    option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com";
-            //    option.ClientSecret = "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";
-            //});
-            // Add services to the container.
+            builder.Services.AddAuthentication().AddGoogle(option =>
+            {
+                option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com";
+                option.ClientSecret = "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";
+            });
 
+            //Add services to the container.
 
 
             builder.Services.AddIdentity<UserSigin, IdentityRole>(option =>
-            {
-                option.Password.RequireDigit = false;
-                option.Password.RequireLowercase = false;
-                option.Password.RequiredLength = 8;
-                option.Password.RequireUppercase = false;
-                option.Password.RequireNonAlphanumeric = false;
-            }).AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
+             {
+                 option.Password.RequireDigit = false;
+                 option.Password.RequireLowercase = false;
+                 option.Password.RequiredLength = 8;
+                 option.Password.RequireUppercase = false;
+                 option.Password.RequireNonAlphanumeric = false;
+             }).AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
             builder.Services.AddTransient<EmailSenderService>();
             builder.Services.AddAuthorization(options =>
             {
