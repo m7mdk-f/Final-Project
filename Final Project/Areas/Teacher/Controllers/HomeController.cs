@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Final_Project.Areas.Controllers
+namespace Final_Project.Areas.Teacher.Controllers
 {
-    [Area("User")]
-    [Authorize(Roles = "User")]
+    [Area("Teacher")]
+    [Authorize(Roles = "Teacher")]
     public class HomeController : Controller
     {
+
         public IActionResult Login()
         {
             TempData["success"] = "Login Successful";
@@ -17,7 +18,6 @@ namespace Final_Project.Areas.Controllers
         {
             return View();
         }
-
 
     }
 }

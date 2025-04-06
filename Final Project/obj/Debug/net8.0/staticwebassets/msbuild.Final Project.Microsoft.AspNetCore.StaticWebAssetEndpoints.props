@@ -8449,16 +8449,16 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 17:37:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Final Project/Final Project.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.p03964g4nu.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.scezauelk7.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ic0j6PBjRnMFK9FSLkOcWuigDA0bxCocQbmkza3A164="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3428"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ic0j6PBjRnMFK9FSLkOcWuigDA0bxCocQbmkza3A164=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 08:52:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bNUmQt76GlYn5xxB2pUhHv6W69delAOushDtI10fPlo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4577"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bNUmQt76GlYn5xxB2pUhHv6W69delAOushDtI10fPlo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 11:04:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Final Project/Final Project.p03964g4nu.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.p03964g4nu.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/Final Project/Final Project.scezauelk7.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.scezauelk7.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p03964g4nu"},{"Name":"integrity","Value":"sha256-ic0j6PBjRnMFK9FSLkOcWuigDA0bxCocQbmkza3A164="},{"Name":"label","Value":"_content/Final Project/Final Project.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3428"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ic0j6PBjRnMFK9FSLkOcWuigDA0bxCocQbmkza3A164=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 08:52:14 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"scezauelk7"},{"Name":"integrity","Value":"sha256-bNUmQt76GlYn5xxB2pUhHv6W69delAOushDtI10fPlo="},{"Name":"label","Value":"_content/Final Project/Final Project.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4577"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bNUmQt76GlYn5xxB2pUhHv6W69delAOushDtI10fPlo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 11:04:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Final Project/images/538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg'))</AssetFile>

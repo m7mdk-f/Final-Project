@@ -1,8 +1,13 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model RegisterMV;
+@inject UserManager<UserSigin> userManager
 @{
     Layout = "/Views/Shared/_LoginLayout.cshtml";
     ViewData["Title"] = "Register";
+    var user=await userManager.GetUserAsync(User);
+    var Role =await userManager.GetRolesAsync(user);
+    string area = @Role.Contains("Teacher") ? "Teacher" : "User";
+
 }
 
 <!-- Cropper.js CSS -->
@@ -31,7 +36,11 @@
 
             <p class="text-muted text-center mt-2" style="margin:0 0 2px 0 !important;">Click the picture to upload a new photo</p>
         <div class="text-center mb-3">
-        <a asp-action="index" asp-controller="Home" asp-area="user" class="text-muted   text-center text-decoration-none" style="cursor:pointer;">If you dont want to set image <span class="text-primary spannoimage">click here </span>  </a>
+            @* @Role.Contains("Teacher")? *@
+            @* <a asp-action="index" asp-controller="Home" asp-area="Teacher" class="text-muted   text-center text-decoration-none" style="cursor:pointer;">If you dont want to set image <span class="text-primary spannoimage">click here </span>  </a> *@
+
+            @* : *@
+            <a asp-action="Login" asp-controller="Home" asp-area="@area" class="text-muted   text-center text-decoration-none" style="cursor:pointer;">If you dont want to set image <span class="text-primary spannoimage">click here </span>  </a>
         </div>
         <div class="position-relative overflow-hidden">
             <button type="submit" id="nextStep" class="btn btn-primary btn-lg w-100">Register</button>

@@ -119,9 +119,9 @@ namespace Final_Project.Controllers
                         }
                         await signInManager.SignInAsync(user, false);
                         var role = await userManager.GetRolesAsync(user);
-                        if (role.Contains("Techer"))
+                        if (role.Contains("Teacher"))
                         {
-                            return RedirectToAction("Index", "Home", new { area = "Techer" });
+                            return RedirectToAction("Login", "Home", new { area = "Teacher" });
 
                         }
                         else
@@ -129,8 +129,8 @@ namespace Final_Project.Controllers
                     }
                 }
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
+                TempData["error"] = "Fail Login";
             }
-            TempData["error"] = "Mohamed";
 
             return View(model);
         }
@@ -177,9 +177,9 @@ namespace Final_Project.Controllers
                     }
                     return View(model);
                 }
-                if (id.Trim() == "Techer")
+                if (id.Trim() == "Teacher")
                 {
-                    await userManager.AddToRoleAsync(user, "Techer");
+                    await userManager.AddToRoleAsync(user, "Teacher");
                     await signInManager.SignInAsync(user, false);
                     return RedirectToAction("SetImageProfile", "Account");
 
@@ -233,9 +233,9 @@ namespace Final_Project.Controllers
                     return RedirectToAction("index", "home", new { area = "User" });
 
                 }
-                if (results.Contains("Techer"))
+                if (results.Contains("Teacher"))
                 {
-                    return RedirectToAction("index", "home", new { area = "Techer" });
+                    return RedirectToAction("Login", "home", new { area = "Teacher" });
 
                 }
             }
