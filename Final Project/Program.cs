@@ -74,10 +74,14 @@ namespace Final_Project
                 areaName: "User",
                 pattern: "User/{controller=Home}/{action=Index}/{id?}");
 
+            app.MapAreaControllerRoute(
+         name: "Techer",
+         areaName: "Techer",
+         pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
-            name: "default",
-            pattern: "{controller=Account}/{action=Login}/{id?}");
+                name: "default",
+                pattern: "{controller=Account}/{action=Login}/{id?}");
 
             app.Run();
         }
