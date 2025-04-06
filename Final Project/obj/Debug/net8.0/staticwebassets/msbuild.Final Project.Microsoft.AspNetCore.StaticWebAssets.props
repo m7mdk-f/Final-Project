@@ -12690,77 +12690,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Final Project.p03964g4nu.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg</RelativePath>
+      <RelativePath>images/538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fmdg309qs3</Fingerprint>
-      <Integrity>95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=</Integrity>
+      <Fingerprint>wjnyrdet7o</Fingerprint>
+      <Integrity>vBqO4sT5meMp1yqkfYo5lkvLOHDbT9RduFSc+GVZHqQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e1fbded-82c1-4df8-9ede-8c4cb4b4570bprofile.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7698d735-878c-47bc-8a07-024f38c64a1cprofile.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\80219fe3-8879-48c2-9930-a2da906e5876profile.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/7698d735-878c-47bc-8a07-024f38c64a1cprofile.jpg</RelativePath>
+      <RelativePath>images/80219fe3-8879-48c2-9930-a2da906e5876profile.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fmdg309qs3</Fingerprint>
-      <Integrity>95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=</Integrity>
+      <Fingerprint>fm6sbwv0nw</Fingerprint>
+      <Integrity>h2ucYnkuSIlG+HGt4nx6KLzVq8Go4/WkV+DNU6GA2QI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7698d735-878c-47bc-8a07-024f38c64a1cprofile.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a8f625d4-d23e-4dfa-9904-43282dbd8edbprofile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/a8f625d4-d23e-4dfa-9904-43282dbd8edbprofile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bo6ptty6ij</Fingerprint>
-      <Integrity>C1+ROIs+jdp0jEXZ0Ed733q3UhFMZVTVEMa+FwHuwQw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a8f625d4-d23e-4dfa-9904-43282dbd8edbprofile.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fbfea2bb-7d19-4d59-8e66-9de6c3645db8profile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/fbfea2bb-7d19-4d59-8e66-9de6c3645db8profile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9q3abvfz6k</Fingerprint>
-      <Integrity>YaiV14WJaopjI2IEhDwnhURXnlOMHz8VRG+Px82B86w=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fbfea2bb-7d19-4d59-8e66-9de6c3645db8profile.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\80219fe3-8879-48c2-9930-a2da906e5876profile.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))">
       <SourceType>Package</SourceType>

@@ -37,14 +37,14 @@ namespace Final_Project.Controllers
             return googleUser;
         }
         [HttpPost]
-        public async Task<IActionResult> RegisterWithGoogle([FromBody] ExternalLoginModel model)
+        public async Task<IActionResult> RegisterWithGoogle([FromBody] string Token)
         {
-            if (model == null || string.IsNullOrEmpty(model.Token))
+            if (string.IsNullOrEmpty(Token))
             {
                 return Json(new { success = false, message = "Invalid token" });
             }
 
-            var googleUser = await GetGoogleUserInfo(model.Token);
+            var googleUser = await GetGoogleUserInfo(Token);
             if (googleUser == null)
             {
                 return Json(new { success = false, message = "Google authentication failed" });
@@ -84,8 +84,9 @@ namespace Final_Project.Controllers
         }
 
 
-        public IActionResult Login()
+        public async Task<IActionResult> Login()
         {
+            await signInManager.SignOutAsync();
             return View();
         }
 
@@ -108,8 +109,14 @@ namespace Final_Project.Controllers
                             return RedirectToAction("Index", "Home", new { area = "Admin" });
                         }
                         await signInManager.SignInAsync(user, false);
+                        var role = await userManager.GetRolesAsync(user);
+                        if (role.Contains("Techer"))
+                        {
+                            return RedirectToAction("Index", "Home", new { area = "Techer" });
 
-                        return RedirectToAction("Index", "Home", new { area = "User" });
+                        }
+                        else
+                            return RedirectToAction("Index", "Home", new { area = "User" });
                     }
                 }
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
@@ -118,10 +125,10 @@ namespace Final_Project.Controllers
 
             return View(model);
         }
-        public IActionResult Register(string? id = "user")
+        public async Task<IActionResult> Register(string? id = "user")
         {
+            await signInManager.SignOutAsync();
             return View();
-
         }
 
         [HttpPost]
@@ -183,7 +190,6 @@ namespace Final_Project.Controllers
             return View();
         }
 
-
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> SetImageProfile(RegisterMV model)
@@ -223,7 +229,6 @@ namespace Final_Project.Controllers
                     return RedirectToAction("index", "home", new { area = "Techer" });
 
                 }
-
             }
             return View(model);
         }
@@ -234,6 +239,7 @@ namespace Final_Project.Controllers
             return RedirectToAction("Login", "Account");
         }
 
+        //forgetPassword
         public IActionResult VerifyEmail()
         {
             return View();
@@ -321,7 +327,6 @@ namespace Final_Project.Controllers
             return View(model);
         }
         [AllowAnonymous]
-        //m
         public ActionResult ResetPasswordConfirmation()
         {
             return View();
