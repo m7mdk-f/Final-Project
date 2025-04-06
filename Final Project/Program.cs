@@ -36,11 +36,6 @@ namespace Final_Project
                 options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
             });
 
-
-
-
-
-
             var app = builder.Build();
 
 
@@ -75,9 +70,9 @@ namespace Final_Project
                 pattern: "User/{controller=Home}/{action=Index}/{id?}");
 
             app.MapAreaControllerRoute(
-         name: "Techer",
-         areaName: "Techer",
-         pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
+                name: "Techer",
+                areaName: "Techer",
+                pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
                 name: "default",
