@@ -25,26 +25,24 @@ namespace Final_Project.Controllers
         }
         private async Task<GoogleUserInfo> GetGoogleUserInfo(string token)
         {
-            // Send a request to the Google API to get user info
             var requestUrl = $"https://www.googleapis.com/oauth2/v3/tokeninfo?id_token={token}";
             var httpClient = new HttpClient();
             var response = await httpClient.GetStringAsync(requestUrl);
 
-            // Debug: Log the response from Google to ensure first and last names are included
             Console.WriteLine(response);
 
             var googleUser = JsonConvert.DeserializeObject<GoogleUserInfo>(response);
             return googleUser;
         }
         [HttpPost]
-        public async Task<IActionResult> RegisterWithGoogle([FromBody] string Token)
+        public async Task<IActionResult> RegisterWithGoogle([FromBody] ExternalLoginModel model, string role = "User")
         {
-            if (string.IsNullOrEmpty(Token))
+            if (model == null || string.IsNullOrEmpty(model.Token))
             {
                 return Json(new { success = false, message = "Invalid token" });
             }
 
-            var googleUser = await GetGoogleUserInfo(Token);
+            var googleUser = await GetGoogleUserInfo(model.Token);
             if (googleUser == null)
             {
                 return Json(new { success = false, message = "Google authentication failed" });
@@ -65,7 +63,16 @@ namespace Final_Project.Controllers
                 var result = await userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                    await userManager.AddToRoleAsync(user, "User");
+                    // Assign role based on the input or default to 'User'
+                    if (role.Trim() == "Teacher")
+                    {
+                        await userManager.AddToRoleAsync(user, "Teacher");
+                    }
+                    else
+                    {
+                        await userManager.AddToRoleAsync(user, "User");
+                    }
+
                     await signInManager.SignInAsync(user, false);
                     return Json(new { success = true });
                 }
@@ -79,9 +86,11 @@ namespace Final_Project.Controllers
                 }
             }
 
+            // If user already exists, sign them in
             await signInManager.SignInAsync(user, false);
             return Json(new { success = true });
         }
+
 
 
         public async Task<IActionResult> Login()

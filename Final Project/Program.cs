@@ -20,7 +20,7 @@ namespace Final_Project
             //gmial
             builder.Services.AddAuthentication().AddGoogle(option =>
             {
-                option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com";
+                option.ClientId = "405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com\r\n";
                 option.ClientSecret = "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";
             });
 
