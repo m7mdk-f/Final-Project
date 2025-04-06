@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Final_Project.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
 
+  
 
     <style>
         .custom-floating-label {
@@ -73,11 +75,16 @@
             .flex-container .form-outline {
                 flex: 1;
             }
+
+
+
     </style>
 
 
 </head>
 <body style="margin:0!important;">
+    <partial name="_Notification" />
+
     <section class="vh-100">
         <div class="container py-5 h-100">
             <div class="row d-flex align-items-center justify-content-center h-100">
@@ -93,14 +100,35 @@
     @await RenderSectionAsync("Scripts", required: false)
 
 
-
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script>
         function handleCredentialResponse(response) {
-            console.log("Encoded JWT ID token: " + response.credential);
-            // You can send this token to your backend for verification
+            // Extract the token
+            const token = response.credential;
+
+            // Send the token to the server for authentication
+            fetch('@Url.Action("RegisterWithGoogle", "Account")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ token: token })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // If successful, redirect to another page (e.g., Dashboard)
+                    window.location.href = '@Url.Action("Index", "Home", new { area = "User" })';
+                } else {
+                    alert('Authentication failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
         }
     </script>
+
 
 </body>
 </html>

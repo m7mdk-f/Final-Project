@@ -5,6 +5,7 @@ using Final_Project.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Final_Project.Controllers
 {
@@ -22,10 +23,79 @@ namespace Final_Project.Controllers
             this._emailSender = emailSender;
             this.webHostEnvironment = webHostEnvironment;
         }
-
-
-        public IActionResult Login()
+        private async Task<GoogleUserInfo> GetGoogleUserInfo(string token)
         {
+            var requestUrl = $"https://www.googleapis.com/oauth2/v3/tokeninfo?id_token={token}";
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(requestUrl);
+
+            Console.WriteLine(response);
+
+            var googleUser = JsonConvert.DeserializeObject<GoogleUserInfo>(response);
+            return googleUser;
+        }
+        [HttpPost]
+        public async Task<IActionResult> RegisterWithGoogle([FromBody] ExternalLoginModel model, string role = "User")
+        {
+            if (model == null || string.IsNullOrEmpty(model.Token))
+            {
+                return Json(new { success = false, message = "Invalid token" });
+            }
+
+            var googleUser = await GetGoogleUserInfo(model.Token);
+            if (googleUser == null)
+            {
+                return Json(new { success = false, message = "Google authentication failed" });
+            }
+
+            var user = await userManager.FindByEmailAsync(googleUser.Email);
+            if (user == null)
+            {
+                user = new UserSigin
+                {
+                    UserName = googleUser.Email,
+                    Email = googleUser.Email,
+                    FName = googleUser.given_name,
+                    LName = googleUser.family_name,
+                    Imageurl = googleUser.picture
+                };
+
+                var result = await userManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                    // Assign role based on the input or default to 'User'
+                    if (role.Trim() == "Teacher")
+                    {
+                        await userManager.AddToRoleAsync(user, "Teacher");
+                    }
+                    else
+                    {
+                        await userManager.AddToRoleAsync(user, "User");
+                    }
+
+                    await signInManager.SignInAsync(user, false);
+                    return Json(new { success = true });
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("Email", error.Description);
+                    }
+                    return Json(new { success = false, message = "Failed to create user" });
+                }
+            }
+
+            // If user already exists, sign them in
+            await signInManager.SignInAsync(user, false);
+            return Json(new { success = true });
+        }
+
+
+
+        public async Task<IActionResult> Login()
+        {
+            await signInManager.SignOutAsync();
             return View();
         }
 
@@ -47,23 +117,31 @@ namespace Final_Project.Controllers
                         {
                             return RedirectToAction("Index", "Home", new { area = "Admin" });
                         }
-                        return RedirectToAction("Index", "Home", new { area = "User" });
+                        await signInManager.SignInAsync(user, false);
+                        var role = await userManager.GetRolesAsync(user);
+                        if (role.Contains("Techer"))
+                        {
+                            return RedirectToAction("Index", "Home", new { area = "Techer" });
+
+                        }
+                        else
+                            return RedirectToAction("Index", "Home", new { area = "User" });
                     }
                 }
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
             }
+            TempData["error"] = "Mohamed";
 
             return View(model);
         }
-
-        public IActionResult Register()
+        public async Task<IActionResult> Register(string? id = "user")
         {
+            await signInManager.SignOutAsync();
             return View();
-
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterMV model)
+        public async Task<IActionResult> Register(RegisterMV model, string? id = "user")
         {
             if (ModelState.IsValid)
             {
@@ -99,8 +177,19 @@ namespace Final_Project.Controllers
                     }
                     return View(model);
                 }
-                await signInManager.SignInAsync(user, false);
-                return RedirectToAction("SetImageProfile", "Account");
+                if (id.Trim() == "Techer")
+                {
+                    await userManager.AddToRoleAsync(user, "Techer");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
+
+                }
+                else
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("SetImageProfile", "Account");
+                }
             }
             return View(model);
         }
@@ -116,18 +205,18 @@ namespace Final_Project.Controllers
         {
             if (model.ImageUrl != null)
             {
-
                 string subFolderPath = "images";
                 int filesize = 5;
                 string[] allowfileExtension = [".jpg", "jpeg", ".png"];
                 if (model.ImageUrl.Length > filesize * 1024 * 1024)
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
-
-                if (allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
+                if (!allowfileExtension.Contains(Path.GetExtension(model.ImageUrl.FileName)))
                 {
-
+                    ModelState.AddModelError("", "");
+                    return View(model);
                 }
 
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
@@ -138,8 +227,17 @@ namespace Final_Project.Controllers
                 user.Imageurl = "/" + subFolderPath + "/" + fileName;
                 await userManager.UpdateAsync(user);
 
-                return RedirectToAction("index", "home", new { area = "User" });
+                var results = await userManager.GetRolesAsync(user);
+                if (results.Contains("User"))
+                {
+                    return RedirectToAction("index", "home", new { area = "User" });
 
+                }
+                if (results.Contains("Techer"))
+                {
+                    return RedirectToAction("index", "home", new { area = "Techer" });
+
+                }
             }
             return View(model);
         }
@@ -150,6 +248,7 @@ namespace Final_Project.Controllers
             return RedirectToAction("Login", "Account");
         }
 
+        //forgetPassword
         public IActionResult VerifyEmail()
         {
             return View();
@@ -237,7 +336,6 @@ namespace Final_Project.Controllers
             return View(model);
         }
         [AllowAnonymous]
-        //m
         public ActionResult ResetPasswordConfirmation()
         {
             return View();
@@ -282,6 +380,10 @@ namespace Final_Project.Controllers
         }
 
 
+    }
+    public class ExternalLoginModel
+    {
+        public string Token { get; set; }
     }
 
 }

@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 
 namespace Final_Project.ModelView
 {
@@ -39,5 +38,7 @@ namespace Final_Project.ModelView
         [DataType(DataType.ImageUrl)]
         [Display(Name = "Image Url")]
         public IFormFile? ImageUrl { get; set; }
+        public string? GoogleId { get; set; }
+
     }
 }

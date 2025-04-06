@@ -1743,3 +1743,4 @@ F:\ASPCore\Final Project\Final Project\obj\Debug\net8.0\refint\Final Project.dll
 F:\ASPCore\Final Project\Final Project\obj\Debug\net8.0\Final Project.pdb
 F:\ASPCore\Final Project\Final Project\obj\Debug\net8.0\Final Project.genruntimeconfig.cache
 F:\ASPCore\Final Project\Final Project\obj\Debug\net8.0\ref\Final Project.dll
+D:\GitHubWork\Final-Project\Final Project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
