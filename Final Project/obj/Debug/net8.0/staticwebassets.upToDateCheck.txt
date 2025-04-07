@@ -702,8 +702,6 @@ wwwroot\css\Profile.css
 wwwroot\css\SetPicture.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\538a5719-cb75-444d-95f8-8d0586d0499cprofile.jpg
-wwwroot\images\80219fe3-8879-48c2-9930-a2da906e5876profile.jpg
 wwwroot\js\SetPicture.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
