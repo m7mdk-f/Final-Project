@@ -3,12 +3,30 @@
   "WorkspaceRootPath": "D:\\GitHubWork\\Final-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHubWork\\Final-Project\\Final Project\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Final Project\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,27 +56,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T09:50:35.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAKkWAAAAAAAAAAAnwL8WAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-07T09:48:36.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "ViewState": "AgIAABwAAAAAAAAAAAAnwCgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-07T09:48:17.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "glightbox.js",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+              "RelativeToolTip": "Final Project\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-07T09:46:27.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T09:43:11.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
               "RelativeDocumentMoniker": "Final Project\\Program.cs",
               "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Program.cs",
               "RelativeToolTip": "Final Project\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAApwEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAApwEoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T09:38:03.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T09:38:03.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Final Project\\Data\\SeedData.cs",
               "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Data\\SeedData.cs",
               "RelativeToolTip": "Final Project\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:49:44.838Z"
+              "WhenOpened": "2025-04-07T08:49:44.838Z",
+              "EditorCaption": ""
             }
           ]
         },
