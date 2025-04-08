@@ -38,12 +38,13 @@
         </div>
 
         <!-- Password Field -->
-        <div class="form-floating mb-3">
-            <input asp-for="Password" class="form-control" id="Password" placeholder="Password" >
+         <div class="form-floating mb-3">
+            <input asp-for="Password" class="form-control password-input" id="Password" placeholder="Password" type="password" />
             <label asp-for="Password">Password</label>
-            <span class="text-danger" asp-validation-for="Password">
-
-            </span>
+            <button type="button" class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 20px;">
+                <i class="bi bi-eye-slash password-icon"></i>
+            </button>
+            <span class="text-danger" asp-validation-for="Password"></span>
         </div>
 
         <!-- Remember Me Checkbox -->

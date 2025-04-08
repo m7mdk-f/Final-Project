@@ -74,7 +74,16 @@ namespace Final_Project.Controllers
                     }
 
                     await signInManager.SignInAsync(user, false);
-                    return Json(new { success = true });
+
+                    // Redirect based on role
+                    if (await userManager.IsInRoleAsync(user, "Teacher"))
+                    {
+                        return Json(new { success = true, redirectUrl = "/Teacher/Home/Index" });
+                    }
+                    else
+                    {
+                        return Json(new { success = true, redirectUrl = "/User/home/Index" });
+                    }
                 }
                 else
                 {
@@ -86,9 +95,18 @@ namespace Final_Project.Controllers
                 }
             }
 
-            // If user already exists, sign them in
+            // If user already exists, sign them in and check role
             await signInManager.SignInAsync(user, false);
-            return Json(new { success = true });
+
+            // Check if the user is a Teacher or User
+            if (await userManager.IsInRoleAsync(user, "Teacher"))
+            {
+                return Json(new { success = true, redirectUrl = "/Teacher/Home/Index" });
+            }
+            else
+            {
+                return Json(new { success = true, redirectUrl = "/User/home/Index" });
+            }
         }
 
 

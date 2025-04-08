@@ -20,8 +20,18 @@
 <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 con">
     <!-- Step 1: Basic Information -->
     <form id="step1" class="step active" method="post" asp-controller="Account" asp-action="Register">
-        <h2 class="mb-4 header">Register</h2>
-
+       <h2 class="mb-4 header">
+            Register by <span>
+                @if (Url.PageLink()!.Contains("Teacher"))
+                {
+                    <span class="text-primary">Techer</span>
+                }
+                else 
+                {
+                    <span class="text-primary">Student</span>
+                }
+            </span>
+        </h2>
         <!-- First Name and Last Name (Flex Layout) -->
         <div class="flex-container ">
             <div class="form-floating mb-3 " style="width: 100%;">
