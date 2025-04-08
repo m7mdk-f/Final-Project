@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ux2KXq9zxA1L0vY0RFNH3ypz7ovb4WZ4yLmzRIatFXg=",
+  "Hash": "BEOa5Wg+zQrlmDbbD3Yk6/RFPTlIq6hB8iVLHgdw1hA=",
   "Source": "Final Project",
   "BasePath": "_content/Final Project",
   "Mode": "Default",
@@ -13324,8 +13324,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s86c18fb6i",
-      "Integrity": "ZOT7KRQlIsKLOfr9XiaL60R3AIpQxIVbNlDx9PiWfIc=",
+      "Fingerprint": "fylly7r6u1",
+      "Integrity": "Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
@@ -67826,6 +67826,51 @@
       ]
     },
     {
+      "Route": "assets/js/main.fylly7r6u1.js",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 09:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fylly7r6u1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4="
+        }
+      ]
+    },
+    {
       "Route": "assets/js/main.js",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
       "Selectors": [],
@@ -67836,7 +67881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3665"
+          "Value": "3679"
         },
         {
           "Name": "Content-Type",
@@ -67844,11 +67889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZOT7KRQlIsKLOfr9XiaL60R3AIpQxIVbNlDx9PiWfIc=\""
+          "Value": "\"Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
+          "Value": "Tue, 08 Apr 2025 09:01:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -67858,52 +67903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZOT7KRQlIsKLOfr9XiaL60R3AIpQxIVbNlDx9PiWfIc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/main.s86c18fb6i.js",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3665"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZOT7KRQlIsKLOfr9XiaL60R3AIpQxIVbNlDx9PiWfIc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s86c18fb6i"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZOT7KRQlIsKLOfr9XiaL60R3AIpQxIVbNlDx9PiWfIc="
+          "Value": "sha256-Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4="
         }
       ]
     },

@@ -24,19 +24,32 @@
 
     <!-- Main CSS File -->
     <link href="~/assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
 
 
 </head>
 <body>
-    <header id="header" class="header d-flex align-items-center sticky-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <nav id="header" class="container-fluid container-xl  navbar navbar-expand-lg  header">
+        <div class="container-fluid">
+      
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <!-- Collapsible wrapper -->
+            <div  class="collapse navbar-collapse" style="flex-grow:0; display:flex !important; flex-basis:auto !important;  " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a href="index.html" class="logo d-flex align-items-center me-auto">
 
-                <h1 class="sitename">Mentor</h1>
-            </a>
+                    <h1 class="sitename">Mentor</h1>
+                </a>
 
-            <nav id="navmenu" class="navmenu">
+                <!-- Left links -->
+                <!-- Left links -->
+            </div>
+
+            <nav id="navmenu"  class="navmenu">
                 <ul>
                     <li><a href="index.html" class="active">Home<br></a></li>
                     <li><a href="about.html">About</a></li>
@@ -68,10 +81,64 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted"  asp-action="Login" asp-controller="Account">Get Started</a>
-          
+            <!-- Right elements -->
+            <div class="d-flex align-items-center" id="right" style="">
+                <div class="dropdown position-relative" style="font-size:large;">
+                    <a data-mdb-dropdown-init
+                       class="text-reset me-3  "
+                       href="#"
+                       id="navbarDropdownMenuLink"
+                        >
+
+                        <i class="bi bi-bell-fill"></i>         
+                        <span class="badge position-absolute rounded-circle badge-notification bg-danger" style="font-size:9px; top:-1px; left:7px;">1</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#">Some news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Another news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a data-mdb-dropdown-init
+                       class=" d-flex align-items-center hidden-arrow"
+                       href="#"
+                       id="navbarDropdownMenuAvatar"
+                       role="button"
+                       aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                             class="rounded-circle"
+                             height="25"
+                             alt="Black and White Portrait of a Man"
+                             loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end"
+                        aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
         </div>
-    </header>
+        <!-- Container wrapper -->
+    </nav>
+  
 
     <main role="main">
         @RenderBody()

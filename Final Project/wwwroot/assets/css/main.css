@@ -264,7 +264,20 @@ h6 {
             background: color-mix(in srgb, var(--accent-color), transparent 15%);
         }
 
+
 @media (max-width: 1200px) {
+    #navmenu {
+        order: 1;
+    }
+    #navbarSupportedContent {
+        order: 2;
+        margin-left:5px;
+        margin-right:auto;
+
+    }
+    #right {
+        order: 3;
+    }
     .header .logo {
         order: 1;
     }
@@ -277,6 +290,20 @@ h6 {
 
     .header .navmenu {
         order: 3;
+    }
+}
+
+@media (max-width: 700px) {
+    .mobile-nav-toggle {
+        font-size: 20px !important;
+    }
+
+    .header .logo h1 {
+        font-size: 20px;
+    }
+    #navbarSupportedContent {
+        order: 2;
+        margin-left: 0px;
     }
 }
 
@@ -308,7 +335,7 @@ h6 {
         .navmenu a,
         .navmenu a:focus {
             color: var(--nav-color);
-            padding: 18px 15px;
+            padding: 0 15px;
             font-size: 16px;
             font-family: var(--nav-font);
             font-weight: 400;
