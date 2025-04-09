@@ -18,6 +18,11 @@ namespace Final_Project.Areas.Controllers
             return View();
         }
 
+        public IActionResult ShowNotification()
+        {
+            return View();
+        }
+
 
     }
 }

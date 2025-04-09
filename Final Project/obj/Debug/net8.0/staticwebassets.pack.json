@@ -2393,6 +2393,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
     {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\notificationstyle.css"
+    },
+    {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\about-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about-2.jpg"
     },
@@ -2531,6 +2535,10 @@
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
+      "PackagePath": "staticwebassets\\assets\\js\\secend.js"
     },
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\scss\\Readme.txt",
@@ -2813,12 +2821,20 @@
       "PackagePath": "staticwebassets\\css\\SetPicture.css"
     },
     {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+      "PackagePath": "staticwebassets\\css\\notificationpage.css"
+    },
+    {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg",
+      "PackagePath": "staticwebassets\\images\\0_whPt9R9BXJ5xotoh.jpg"
     },
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\SetPicture.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BEOa5Wg+zQrlmDbbD3Yk6/RFPTlIq6hB8iVLHgdw1hA=",
+  "Hash": "jpSaR/Lzs5NwtmbUZtVdBRtFzgf9IpghnvKrs00SJYk=",
   "Source": "Final Project",
   "BasePath": "_content/Final Project",
   "Mode": "Default",
@@ -12589,11 +12589,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "282o5r3lsz",
-      "Integrity": "vv2+vup1Gsjn3qzA001h2zTru3Ft9LIlrB+qAPVmp3o=",
+      "Fingerprint": "gtimzvou9d",
+      "Integrity": "xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\main.css"
+    },
+    {
+      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "assets/css/notificationstyle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zn4qq488bs",
+      "Integrity": "4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\notificationstyle.css"
     },
     {
       "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\img\\about.jpg",
@@ -13329,6 +13350,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "assets/js/secend#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r3qvg7c2jx",
+      "Integrity": "GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\secend.js"
     },
     {
       "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\scss\\Readme.txt",
@@ -14759,6 +14801,27 @@
       "OriginalItemSpec": "wwwroot\\css\\Alter.css"
     },
     {
+      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "css/notificationpage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "joh1c8astq",
+      "Integrity": "w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\notificationpage.css"
+    },
+    {
       "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Profile.css",
       "SourceId": "Final Project",
       "SourceType": "Discovered",
@@ -14841,6 +14904,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg",
+      "SourceId": "Final Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
+      "BasePath": "_content/Final Project",
+      "RelativePath": "images/0_whPt9R9BXJ5xotoh#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yt57r54kxp",
+      "Integrity": "RoiMPKC4gXR65fWcTzVUaOXN+HMWUPCR7Fg1yM+zS94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg"
     },
     {
       "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\SetPicture.js",
@@ -64956,51 +65040,6 @@
       ]
     },
     {
-      "Route": "assets/css/main.282o5r3lsz.css",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50946"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vv2+vup1Gsjn3qzA001h2zTru3Ft9LIlrB+qAPVmp3o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "282o5r3lsz"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/css/main.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vv2+vup1Gsjn3qzA001h2zTru3Ft9LIlrB+qAPVmp3o="
-        }
-      ]
-    },
-    {
       "Route": "assets/css/main.css",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
       "Selectors": [],
@@ -65011,7 +65050,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "50946"
+          "Value": "51557"
         },
         {
           "Name": "Content-Type",
@@ -65019,11 +65058,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vv2+vup1Gsjn3qzA001h2zTru3Ft9LIlrB+qAPVmp3o=\""
+          "Value": "\"xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
+          "Value": "Wed, 09 Apr 2025 11:33:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -65033,7 +65072,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vv2+vup1Gsjn3qzA001h2zTru3Ft9LIlrB+qAPVmp3o="
+          "Value": "sha256-xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/main.gtimzvou9d.css",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:33:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtimzvou9d"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/notificationstyle.css",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/notificationstyle.zn4qq488bs.css",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 09:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn4qq488bs"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/notificationstyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs="
         }
       ]
     },
@@ -67904,6 +68070,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/secend.js",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/secend.r3qvg7c2jx.js",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 11:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r3qvg7c2jx"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/secend.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs="
         }
       ]
     },
@@ -73484,6 +73732,88 @@
       ]
     },
     {
+      "Route": "css/notificationpage.css",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:36:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/notificationpage.joh1c8astq.css",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:36:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "joh1c8astq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/notificationpage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ="
+        }
+      ]
+    },
+    {
       "Route": "css/Profile.css",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Profile.css",
       "Selectors": [],
@@ -73972,6 +74302,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-bNUmQt76GlYn5xxB2pUhHv6W69delAOushDtI10fPlo="
+        }
+      ]
+    },
+    {
+      "Route": "images/0_whPt9R9BXJ5xotoh.jpg",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RoiMPKC4gXR65fWcTzVUaOXN+HMWUPCR7Fg1yM+zS94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 08:29:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoiMPKC4gXR65fWcTzVUaOXN+HMWUPCR7Fg1yM+zS94="
+        }
+      ]
+    },
+    {
+      "Route": "images/0_whPt9R9BXJ5xotoh.yt57r54kxp.jpg",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RoiMPKC4gXR65fWcTzVUaOXN+HMWUPCR7Fg1yM+zS94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 08:29:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yt57r54kxp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0_whPt9R9BXJ5xotoh.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoiMPKC4gXR65fWcTzVUaOXN+HMWUPCR7Fg1yM+zS94="
         }
       ]
     },

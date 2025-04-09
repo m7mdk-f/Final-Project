@@ -595,6 +595,7 @@ wwwroot\adminStyle\json\typehead\movies.json
 wwwroot\adminStyle\json\typehead\nba.json
 wwwroot\adminStyle\json\typehead\nhl.json
 wwwroot\assets\css\main.css
+wwwroot\assets\css\notificationstyle.css
 wwwroot\assets\img\about.jpg
 wwwroot\assets\img\about-2.jpg
 wwwroot\assets\img\apple-touch-icon.png
@@ -630,6 +631,7 @@ wwwroot\assets\img\trainers\trainer-2-2.jpg
 wwwroot\assets\img\trainers\trainer-3.jpg
 wwwroot\assets\img\trainers\trainer-3-2.jpg
 wwwroot\assets\js\main.js
+wwwroot\assets\js\secend.js
 wwwroot\assets\scss\Readme.txt
 wwwroot\assets\vendor\aos\aos.cjs.js
 wwwroot\assets\vendor\aos\aos.css
@@ -698,10 +700,12 @@ wwwroot\assets\vendor\swiper\swiper-bundle.min.css
 wwwroot\assets\vendor\swiper\swiper-bundle.min.js
 wwwroot\assets\vendor\swiper\swiper-bundle.min.js.map
 wwwroot\css\Alter.css
+wwwroot\css\notificationpage.css
 wwwroot\css\Profile.css
 wwwroot\css\SetPicture.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\0_whPt9R9BXJ5xotoh.jpg
 wwwroot\js\SetPicture.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
