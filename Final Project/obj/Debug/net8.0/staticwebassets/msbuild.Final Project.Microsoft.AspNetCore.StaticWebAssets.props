@@ -12648,8 +12648,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>joh1c8astq</Fingerprint>
-      <Integrity>w1vUTVOCxocmjdbnD07NWVg9XxhvkXdEUtfamBuPCaQ=</Integrity>
+      <Fingerprint>n8ku8zmqxv</Fingerprint>
+      <Integrity>9xUy1TIFLw8jGU1qKWmNShqOwLCRgYUcqScyJ0hZtBA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\notificationpage.css'))</OriginalItemSpec>

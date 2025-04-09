@@ -46,77 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "notificationpage.css",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\css\\notificationpage.css",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
-              "RelativeToolTip": "Final Project\\wwwroot\\css\\notificationpage.css",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:58:48.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowNotification.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml*",
-              "RelativeToolTip": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:46:44.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:46:22.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:44:46.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main.js",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\js\\main.js",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
-              "RelativeToolTip": "Final Project\\wwwroot\\assets\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-09T11:43:39.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -131,6 +62,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "notificationpage.css",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+              "RelativeDocumentMoniker": "Final Project\\wwwroot\\css\\notificationpage.css",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
+              "RelativeToolTip": "Final Project\\wwwroot\\css\\notificationpage.css",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-09T11:58:48.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowNotification.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T11:46:44.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T11:46:22.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T11:44:46.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
+              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\js\\main.js",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
+              "RelativeToolTip": "Final Project\\wwwroot\\assets\\js\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-09T11:43:39.868Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "secend.js",
               "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "Final Project\\wwwroot\\assets\\js\\secend.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-09T11:43:42.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:43:42.001Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
               "ViewState": "AgIAAJUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:10:22.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:10:22.577Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\main.css",
               "ViewState": "AgIAACABAAAAAAAAAAAEwMMBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:09:51.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:09:51.629Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Final Project\\Areas\\User\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAPMAAAAAAAAAAAAAAHYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:09:36.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:09:36.77Z"
             }
           ]
         },
