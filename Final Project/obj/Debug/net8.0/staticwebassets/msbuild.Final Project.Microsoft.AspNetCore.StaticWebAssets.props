@@ -10740,8 +10740,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gtimzvou9d</Fingerprint>
-      <Integrity>xOfs/ZbrVMEfDNyQ0foRy7/Q28IDvNiHCs1fvan7mW0=</Integrity>
+      <Fingerprint>obb8gf1pbx</Fingerprint>
+      <Integrity>VOdRtWna5YNgmY5OdHUR3TNaRJMLhBrj49aIIFvKCsE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\main.css'))</OriginalItemSpec>
@@ -10758,8 +10758,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zn4qq488bs</Fingerprint>
-      <Integrity>4fvyvTpeXwTpSExjLh+2Wti/x5zYXT2cNknK6UuJOOs=</Integrity>
+      <Fingerprint>3uetmknohc</Fingerprint>
+      <Integrity>WwZfp/2GRW14SHGbCrL0zl0d+sIJF+sv47d9VAKAVZc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\notificationstyle.css'))</OriginalItemSpec>
@@ -11388,8 +11388,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fylly7r6u1</Fingerprint>
-      <Integrity>Z3B/u1By/YZ1bScLDUg0ZjVF/00BVdIH8w8QERNQDy4=</Integrity>
+      <Fingerprint>454lol7a89</Fingerprint>
+      <Integrity>OIT5RrU+tEV/ayaaxtg7Ffm/3i3QpcQPw6yZa4w+/+w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</OriginalItemSpec>
@@ -11640,8 +11640,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zub09dkrxp</Fingerprint>
-      <Integrity>CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=</Integrity>
+      <Fingerprint>rxqwdshoga</Fingerprint>
+      <Integrity>oYJDp77SCPeKzzWtz5eQhE2COh0+xi5q+CDeSrDcejM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\bootstrap\css\bootstrap.css'))</OriginalItemSpec>
@@ -12108,8 +12108,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>43atpzeawx</Fingerprint>
-      <Integrity>sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=</Integrity>
+      <Fingerprint>3sb3z80xd9</Fingerprint>
+      <Integrity>nT4w0AHyhmrV5t4wELy7aYuPVZhqO1RVNTrOy7G3TzI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\bootstrap\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -12510,114 +12510,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\glightbox\js\glightbox.min.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\php-email-form\validate.js'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/php-email-form/validate.js</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1l17o6qm1o</Fingerprint>
-      <Integrity>xRP+nt3eKzYkeT1ZtpqKS57evKmyxYRVggLdPSlvODE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\php-email-form\validate.js'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\purecounter\purecounter_vanilla.js'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/purecounter/purecounter_vanilla.js</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2rjw4dq9h9</Fingerprint>
-      <Integrity>/uMUdEA8b40UC4PY250+uFXEiupRpBvyc9H2E2fHMPs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\purecounter\purecounter_vanilla.js'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\purecounter\purecounter_vanilla.js.map'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/purecounter/purecounter_vanilla.js.map</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vgl9ip53du</Fingerprint>
-      <Integrity>7zoZY9nFqrNulCkTx5scSCvLsSl2FoHHm+nfxf/DEqU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\purecounter\purecounter_vanilla.js.map'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.css'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/swiper/swiper-bundle.min.css</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wq2lpygg16</Fingerprint>
-      <Integrity>2H0YIUnIV/Xl3ZPQKxGxAiLfMYGWnJUcOo8LQfbabSk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.css'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.js'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/swiper/swiper-bundle.min.js</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jv6n5qb7m1</Fingerprint>
-      <Integrity>j7+Iu/CCUKMYMHJN7MakUmccOsC9myDSPKNVJiYUxyQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.js'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.js.map'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>assets/vendor/swiper/swiper-bundle.min.js.map</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n7u3ju475m</Fingerprint>
-      <Integrity>s+bVFt0pgO8TKcDruWHlUw+jLg2TWVpjT3pCHRek6Gk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\vendor\swiper\swiper-bundle.min.js.map'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Alter.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
@@ -12684,8 +12576,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2e34nczipk</Fingerprint>
-      <Integrity>1j5nHc/e686V4K0oyqBQmuDxxWESRxkTcECLABr0fos=</Integrity>
+      <Fingerprint>u216jihjp1</Fingerprint>
+      <Integrity>9pWm/74UTfRL44i1a8Hl3yfTxWmYjmAJVhWXKzZKJlY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\SetPicture.css'))</OriginalItemSpec>
@@ -12762,6 +12654,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0_whPt9R9BXJ5xotoh.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fu0lqls0w5</Fingerprint>
+      <Integrity>eXot3+qA5Hy0FPyKsbQw33upVHrJlFFDVoAVBRK33IA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fmdg309qs3</Fingerprint>
+      <Integrity>95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nfhdnp05qd</Fingerprint>
+      <Integrity>faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ProfileVIew.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final Project</BasePath>
+      <RelativePath>js/ProfileVIew.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ca1g5q6pkb</Fingerprint>
+      <Integrity>hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ProfileVIew.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SetPicture.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
@@ -12810,8 +12774,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mpyigms19s</Fingerprint>
-      <Integrity>xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=</Integrity>
+      <Fingerprint>3venq2gmkh</Fingerprint>
+      <Integrity>/8zCC4aS2zsCQUrNxdwNgwb9YDcpy6LT1LkGdnxtBrs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</OriginalItemSpec>

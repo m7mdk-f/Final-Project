@@ -8,16 +8,20 @@ namespace Final_Project.Areas.Teacher.Controllers
     public class HomeController : Controller
     {
 
-        public IActionResult Login()
-        {
-            TempData["success"] = "Login Successful";
 
-            return RedirectToAction("Index");
+
+        public IActionResult MyCourses()
+        {
+
+            return View();
         }
-        public IActionResult Index()
+
+
+        public IActionResult ShowNotification()
         {
             return View();
         }
+
 
     }
 }

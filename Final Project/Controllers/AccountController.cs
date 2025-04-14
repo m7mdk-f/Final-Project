@@ -63,10 +63,12 @@ namespace Final_Project.Controllers
                 var result = await userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                    // Assign role based on the input or default to 'User'
                     if (role.Trim() == "Teacher")
                     {
                         await userManager.AddToRoleAsync(user, "Teacher");
+                        user.UserType = "Teacher";
+                        await userManager.UpdateAsync(user);
+
                     }
                     else
                     {
@@ -75,15 +77,8 @@ namespace Final_Project.Controllers
 
                     await signInManager.SignInAsync(user, false);
 
-                    // Redirect based on role
-                    if (await userManager.IsInRoleAsync(user, "Teacher"))
-                    {
-                        return Json(new { success = true, redirectUrl = "/Teacher/Home/Index" });
-                    }
-                    else
-                    {
-                        return Json(new { success = true, redirectUrl = "/User/home/Index" });
-                    }
+                    return Json(new { success = true, redirectUrl = "/Home/Index" });
+
                 }
                 else
                 {
@@ -95,20 +90,11 @@ namespace Final_Project.Controllers
                 }
             }
 
-            // If user already exists, sign them in and check role
+
             await signInManager.SignInAsync(user, false);
 
-            // Check if the user is a Teacher or User
-            if (await userManager.IsInRoleAsync(user, "Teacher"))
-            {
-                return Json(new { success = true, redirectUrl = "/Teacher/Home/Index" });
-            }
-            else
-            {
-                return Json(new { success = true, redirectUrl = "/User/home/Index" });
-            }
+            return Json(new { success = true, redirectUrl = "/Home/Index" });
         }
-
 
 
         public async Task<IActionResult> Login()
@@ -133,17 +119,13 @@ namespace Final_Project.Controllers
 
                         if (await userManager.IsInRoleAsync(user, "Admin"))
                         {
-                            return RedirectToAction("Index", "Home", new { area = "Admin" });
+                            return RedirectToAction("Login", "Home", new { area = "Admin" });
                         }
                         await signInManager.SignInAsync(user, false);
-                        var role = await userManager.GetRolesAsync(user);
-                        if (role.Contains("Teacher"))
-                        {
-                            return RedirectToAction("Login", "Home", new { area = "Teacher" });
 
-                        }
-                        else
-                            return RedirectToAction("Index", "Home", new { area = "User" });
+
+                        return RedirectToAction("Login", "Home");
+
                     }
                 }
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
@@ -198,6 +180,8 @@ namespace Final_Project.Controllers
                 if (id.Trim() == "Teacher")
                 {
                     await userManager.AddToRoleAsync(user, "Teacher");
+                    user.UserType = "Teacher";
+                    await userManager.UpdateAsync(user);
                     await signInManager.SignInAsync(user, false);
                     return RedirectToAction("SetImageProfile", "Account");
 
@@ -246,16 +230,8 @@ namespace Final_Project.Controllers
                 await userManager.UpdateAsync(user);
 
                 var results = await userManager.GetRolesAsync(user);
-                if (results.Contains("User"))
-                {
-                    return RedirectToAction("index", "home", new { area = "User" });
+                return RedirectToAction("index", "home");
 
-                }
-                if (results.Contains("Teacher"))
-                {
-                    return RedirectToAction("Login", "home", new { area = "Teacher" });
-
-                }
             }
             return View(model);
         }
@@ -263,7 +239,7 @@ namespace Final_Project.Controllers
         public async Task<IActionResult> Siginout()
         {
             await signInManager.SignOutAsync();
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("index", "Home");
         }
 
         //forgetPassword

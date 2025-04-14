@@ -2785,30 +2785,6 @@
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
-      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
-    },
-    {
-      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
-      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
-    },
-    {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\Alter.css",
       "PackagePath": "staticwebassets\\css\\Alter.css"
     },
@@ -2835,6 +2811,22 @@
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\0_whPt9R9BXJ5xotoh.jpg",
       "PackagePath": "staticwebassets\\images\\0_whPt9R9BXJ5xotoh.jpg"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg",
+      "PackagePath": "staticwebassets\\images\\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg",
+      "PackagePath": "staticwebassets\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg",
+      "PackagePath": "staticwebassets\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg"
+    },
+    {
+      "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\ProfileVIew.js",
+      "PackagePath": "staticwebassets\\js\\ProfileVIew.js"
     },
     {
       "Id": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\SetPicture.js",

@@ -113,7 +113,7 @@
             const token = response.credential;
 
             // Determine the URL for registration
-            const isTeacher = window.location.href.includes("/Teacher"); // Check if the current URL is for the Teacher registration page
+            const isTeacher = window.location.href.includes("/Teacher"); 
             const url = isTeacher ? '@Url.Action("RegisterWithGoogle", "Account", new { role = "Teacher" })' : '@Url.Action("RegisterWithGoogle", "Account", new { role = "User" })';
 
             // Send the token to the server for authentication
@@ -127,7 +127,6 @@
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    // Redirect to the appropriate area based on the response
                     window.location.href = data.redirectUrl;
                 } else {
                     alert('Authentication failed');

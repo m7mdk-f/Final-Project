@@ -3517,13 +3517,7 @@ textarea.form-control-lg {
   left: 0;
 }
 
-.dropdown-menu-end {
-  --bs-position: end;
-}
-.dropdown-menu-end[data-bs-popper] {
-  right: 0;
-  left: auto;
-}
+
 
 @media (min-width: 576px) {
   .dropdown-menu-sm-start {

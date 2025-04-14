@@ -7,19 +7,16 @@ namespace Final_Project.Areas.Controllers
     [Authorize(Roles = "User")]
     public class HomeController : Controller
     {
-        public IActionResult Login()
-        {
-            TempData["success"] = "Login Successful";
 
-            return RedirectToAction("Index");
-        }
-        public IActionResult Index()
+
+        public IActionResult ShowNotification()
         {
             return View();
         }
 
-        public IActionResult ShowNotification()
+        public IActionResult MyCourses()
         {
+
             return View();
         }
 

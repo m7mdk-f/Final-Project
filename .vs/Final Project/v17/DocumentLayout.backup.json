@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\GitHubWork\\Final-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\user\\views\\home\\shownotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\user\\views\\home\\shownotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\css\\notificationpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\css\\notificationpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\user\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\user\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,20 +11,44 @@
       "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\teacher\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\teacher\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\assets\\js\\secend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\js\\secend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\wwwroot\\assets\\css\\notificationstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\wwwroot\\assets\\css\\notificationstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|d:\\githubwork\\final-project\\final project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A31F22C2-9A83-4D59-8F24-B216DCCD3A5B}|Final Project\\Final Project.csproj|solutionrelative:final project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,117 +73,164 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "notificationpage.css",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\css\\notificationpage.css",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\css\\notificationpage.css",
-              "RelativeToolTip": "Final Project\\wwwroot\\css\\notificationpage.css",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowDoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:58:48.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowNotification.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "RelativeToolTip": "Final Project\\Areas\\User\\Views\\Home\\ShowNotification.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:46:44.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:46:22.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Final Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:44:46.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main.js",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\js\\main.js",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\main.js",
-              "RelativeToolTip": "Final Project\\wwwroot\\assets\\js\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-09T11:43:39.868Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "secend.js",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\js\\secend.js",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
-              "RelativeToolTip": "Final Project\\wwwroot\\assets\\js\\secend.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-09T11:43:42.001Z"
+              "DocumentIndex": 3,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Final Project\\Data\\SeedData.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Data\\SeedData.cs",
+              "RelativeToolTip": "Final Project\\Data\\SeedData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:27:25.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "notificationstyle.css",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
-              "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\notificationstyle.css",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:10:22.577Z"
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv44AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T11:26:41.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "main.css",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
-              "RelativeDocumentMoniker": "Final Project\\wwwroot\\assets\\css\\main.css",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\css\\main.css",
-              "RelativeToolTip": "Final Project\\wwwroot\\assets\\css\\main.css",
-              "ViewState": "AgIAACABAAAAAAAAAAAEwMMBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T11:09:51.629Z"
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:25:30.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\User\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:23:00.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Final Project\\Areas\\User\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\User\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Final Project\\Areas\\User\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAPMAAAAAAAAAAAAAAHYAAABBAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Teacher\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Teacher\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Teacher\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\Teacher\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:21:34.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T11:09:36.77Z"
+              "WhenOpened": "2025-04-14T11:20:22.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T11:20:11.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T11:15:47.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Final Project\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwH4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:15:25.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:14:30.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Final Project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T11:14:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Final Project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\GitHubWork\\Final-Project\\Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Final Project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T11:08:14.762Z",
+              "EditorCaption": ""
             }
           ]
         },

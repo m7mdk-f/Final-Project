@@ -450,7 +450,7 @@ h6 {
             padding:  0;
             left:0;
             width:100%;
-            top:62px;
+            top:40px;
             margin: 0;
             border-radius: 6px;
             background-color: var(--nav-mobile-background-color);
@@ -728,18 +728,18 @@ h6 {
     transition: all 0.6s ease-out;
 }
 
-    #preloader:before {
-        content: "";
-        position: fixed;
-        top: calc(50% - 30px);
-        left: calc(50% - 30px);
-        border: 6px solid #ffffff;
-        border-color: var(--accent-color) transparent var(--accent-color) transparent;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        animation: animate-preloader 1.5s linear infinite;
-    }
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #ffffff;
+    border-color: var(--accent-color) transparent var(--accent-color) transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1.5s linear infinite;
+}
 
 @keyframes animate-preloader {
     0% {

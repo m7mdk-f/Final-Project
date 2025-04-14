@@ -2,6 +2,11 @@
 @inject UserManager<UserSigin> userManager
 @{
     var user = await userManager.GetUserAsync(User);
+    string role = "User";
+    if(user is not null){
+
+        role= user.UserType == "Teacher" ? "Teacher" : "User";
+    }
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +17,6 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <!-- Favicons -->
-    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -25,23 +28,26 @@
     <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="~/assets/css/main.css" rel="stylesheet">
 
 	<link href="~/assets/css/notificationstyle.css" rel="stylesheet" />
+    <link href="~/css/setpicture.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
 
-	<script src="~/assets/js/secend.js"></script>
+
 </head>
 <body>
- 
+
+    <partial name="_Notification" />
     <nav id="header" class="container-fluid container-xl  navbar navbar-expand-lg  header">
         <div class="container-fluid">
 
             <div  class="collapse navbar-collapse" style="flex-grow:0; display:flex !important; flex-basis:auto !important;  " id="navbarSupportedContent">
-                <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <a asp-action="Index" asp-controller="Home" asp-area="" class="logo d-flex align-items-center me-auto">
 
                     <h1 class="sitename">Mentor</h1>
                 </a>
@@ -50,40 +56,18 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul class="" id="UlNavBar">
-                    <li><a href="index.html" class="active">Home<br></a></li>
+                    <li><a  asp-action="Index" asp-controller="Home"  asp-area="" class="active">Home<br></a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="courses.html">Courses</a></li>
+                    <li><a asp-action="MyCourses" asp-controller="Home" asp-area="@role">Courses</a></li>
                     <li><a href="trainers.html">Trainers</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li class="dropdown">
-                        <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown">
-                                <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <i id="buttontoogle" class="mobile-nav-toggle button-toggle d-xl-none bi bi-list" onclick="toggleNavBar()"></i>
             </nav>
 
-            <!-- Right elements -->
             <div class="d-flex align-items-center" id="right" style="">
                 
-                <!-- Avatar -->
                 @if (user is null)
                 {
 
@@ -129,12 +113,11 @@
                                 </div>
                             </li>
                             <li>
-                                <a class="dropdown-item text-center text-primary" asp-action="ShowNotification" asp-area="User" asp-controller="Home">View all notifications</a>
+                                <a class="dropdown-item text-center text-primary" asp-action="ShowNotification" asp-area="@role" asp-controller="Home">View all notifications</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- Avatar -->
                     <div class="dropdown">
                         <a data-mdb-dropdown-init
                            class=" d-flex align-items-center hidden-arrow"
@@ -147,7 +130,7 @@
                                 <img src="@user.Imageurl"
                                      class="rounded-circle"
                                      height="25"
-                                     alt="Black and White Portrait of a Man"
+                                     alt=""
                                      loading="lazy" />
                             }
                             else
@@ -157,16 +140,14 @@
                                 </span>
                             }
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end"
-                            aria-labelledby="navbarDropdownMenuAvatar">
+                        <ul class="dropdown-menu dropdown-menu-end" style="display:block; right:0px !important; opacity:1; visibility:visible;"
+                          >
                             <li>
-                                <a class="dropdown-item" href="#">My profile</a>
+                                <a class="dropdown-item" asp-action="EditProfile" asp-area="" asp-controller="Home">My profile</a>
                             </li>
+
                             <li>
-                                <a class="dropdown-item" href="#">Settings</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Logout</a>
+                                <a class="dropdown-item" asp-action="Siginout" asp-area="" asp-controller="Account">Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -174,9 +155,7 @@
 
              
             </div>
-            <!-- Right elements -->
         </div>
-        <!-- Container wrapper -->
     </nav>
   
 
@@ -256,53 +235,21 @@
 
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <script>
-                     function toggleNotifications() {
-            const dropdownMenu = document.getElementById('notificationDropdownMenu');
 
-            if (dropdownMenu.classList.contains('showdiv')) {
-                dropdownMenu.classList.add('hide');
-                setTimeout(() => {
-                    dropdownMenu.classList.remove('hide');
-                dropdownMenu.classList.remove('showdiv');
-                }, 300);
-            } else {
-                dropdownMenu.classList.remove('hide');
-                dropdownMenu.classList.add('showdiv');
-            }
-        }
-
-                document.addEventListener('click', function (event) {
-            const dropdownMenu = document.getElementById('notificationDropdownMenu');
-            const notificationIcon = document.querySelector('[data-bs-toggle="dropdown"]');
-
-            if (!dropdownMenu.contains(event.target) && !notificationIcon.contains(event.target)) {
-                if (dropdownMenu.classList.contains('showdiv')) {
-                    dropdownMenu.classList.add('hide');
-                    setTimeout(() => {
-                        dropdownMenu.classList.remove('hide');
-                        dropdownMenu.classList.remove('showdiv');
-                    }, 300);
-                }
-            }
-        });
-
-
-    </script>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
 
     <div id="preloader"></div>
-    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/assets/vendor/php-email-form/validate.js"></script>
     <script src="~/assets/vendor/aos/aos.js"></script>
     <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="~/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/adminStyle/js/plugins/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 
+    @* loading *@
     <script src="~/assets/js/main.js"></script>
+    @if (user is not null)
+    {
+
+        <script src="~/assets/js/secend.js"></script>
+    }
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
