@@ -46,3 +46,21 @@ document.addEventListener('click', function (event) {
         }
     }
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const dropdownButton = document.getElementById('dropdownMenuButton');
+    const customDropdown = document.querySelector('.custom-dropdown');
+
+    dropdownButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        customDropdown.classList.toggle('show');
+    });
+
+    document.addEventListener('click', function (event) {
+        if (!customDropdown.contains(event.target)) {
+            customDropdown.classList.remove('show');
+        }
+    });
+});

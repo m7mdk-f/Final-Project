@@ -5466,8 +5466,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u18nw64ha8</Fingerprint>
-      <Integrity>fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ=</Integrity>
+      <Fingerprint>8m156bezyk</Fingerprint>
+      <Integrity>cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\adminStyle\js\plugins\apexcharts.min.js'))</OriginalItemSpec>
@@ -11406,8 +11406,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r3qvg7c2jx</Fingerprint>
-      <Integrity>GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=</Integrity>
+      <Fingerprint>scftkxrh7e</Fingerprint>
+      <Integrity>BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\secend.js'))</OriginalItemSpec>
@@ -12672,42 +12672,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fmdg309qs3</Fingerprint>
-      <Integrity>95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Final Project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Final Project</BasePath>
-      <RelativePath>images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nfhdnp05qd</Fingerprint>
-      <Integrity>faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ProfileVIew.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final Project</SourceId>
@@ -12720,8 +12684,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ca1g5q6pkb</Fingerprint>
-      <Integrity>hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0=</Integrity>
+      <Fingerprint>c75qvwluuw</Fingerprint>
+      <Integrity>2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ProfileVIew.js'))</OriginalItemSpec>

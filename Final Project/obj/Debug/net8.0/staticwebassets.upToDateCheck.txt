@@ -701,8 +701,6 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\0_whPt9R9BXJ5xotoh.jpg
 wwwroot\images\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg
-wwwroot\images\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg
-wwwroot\images\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg
 wwwroot\js\ProfileVIew.js
 wwwroot\js\SetPicture.js
 wwwroot\js\site.js

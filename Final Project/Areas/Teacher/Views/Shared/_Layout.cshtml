@@ -32,10 +32,41 @@
 
 
     <link href="~/assets/css/notificationstyle.css" rel="stylesheet" />
+
+    <style>
+        .custom-dropdown .dropdown-menu a {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+            padding: 15px 15px;
+            position: relative;
+            color: #b2bac1
+        }
+
+            .custom-dropdown .dropdown-menu a:hover, .custom-dropdown .dropdown-menu a:active, .custom-dropdown .dropdown-menu a:focus {
+                background: #fff;
+                color: #000;
+            }
+
+            .custom-dropdown .dropdown-menu a:hover {
+                color: #0d6efd;
+            }
+
+            .custom-dropdown .dropdown-menu a:hover {
+                background-color: #f1f1f1;
+            }
+
+        .custom-dropdown.show .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu a i {
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+    </style>
 </head>
 <body>
-
-
     <nav id="header" class="container-fluid container-xl  navbar navbar-expand-lg  header">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" style="flex-grow:0; display:flex !important; flex-basis:auto !important;  " id="navbarSupportedContent">
@@ -44,99 +75,171 @@
                 </a>
             </div>
 
+            @* minuList *@
             <nav id="navmenu" class="navmenu">
-                <ul class="" id="UlNavBar">
+                <ul class="" id="UlNavBar" style="top:50px;">
                     <li><a asp-action="Index" asp-controller="Home" asp-area="" class="active">Home<br></a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a asp-action="MyCourses" asp-controller="Home" asp-area="Teacher">Courses</a></li>
+                    <li><a asp-action="MyCourses" asp-controller="Home" >Courses</a></li>
                     <li><a href="trainers.html">Trainers</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
-                   
+
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <i id="buttontoogle" class="mobile-nav-toggle button-toggle d-xl-none bi bi-list" onclick="toggleNavBar()"></i>
             </nav>
 
             <div class="d-flex align-items-center" id="right" style="">
+
                 <div class="dropdown d-flex position-relative" style="font-size: large;">
                     <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" onclick="toggleNotifications()">
                         <div class="notification-icon-wrapper">
                             <i class="bi bi-bell-fill"></i>
-                            <span class="badge position-absolute rounded-circle badge-notification bg-danger" style="font-size: 9px; top: -1px; left: 7px;">1</span>
+                            <span class="badge position-absolute rounded-circle badge-notification bg-danger" style="font-size: 9px; top: -1px; left: 10px;border:2px solid white;">5</span>
                         </div>
                     </a>
 
-                    <ul class="dropdown-menu dropdown-menu-end" style="" aria-labelledby="navbarDropdownMenuLink" id="notificationDropdownMenu">
-                        <li class="dropdown-item" style="cursor:pointer;">
-                            <div class="notification-item" style="gap:10px; padding:10px 0 !important; ">
-                                <div class="notification-img-container">
-                                    <img src="/images/0_whPt9R9BXJ5xotoh.jpg" alt="Course Image" class="notification-img">
+                    <ul style="width:20em; max-height: 300px; overflow-y: auto;left:-15em;" class="dropdown-menu dropdown-menu-end show" aria-labelledby="navbarDropdownMenuLink" id="notificationDropdownMenu" data-bs-popper="none">
+                        <div class="title-wrap d-flex align-items-center justify-content-between px-3 pt-2">
+                            <strong class="title mb-0" style="font-size:14px;">Notifications</strong>
+                            <a href="#" class="small ml-auto">Mark all as read</a>
+                        </div>
+
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
                                 </div>
-                                <div style="width:200px;" class=" notification-content">
-                                    <h6 class="notification-title">Course Title</h6>
-                                    <p class="notification-desc decription">This is a short description of the course...</p>
-                                </div>
-                                <div class="notification-button">
-                                    <button class="btn btn-sm btn-primary view-course-btn">View</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="dropdown-item" style="cursor:pointer;">
-                            <div class="notification-item" style="gap:10px; padding:10px 0 !important;">
-                                <div class="notification-img-container">
-                                    <img src="/images/0_whPt9R9BXJ5xotoh.jpg" alt="Course Image" class="notification-img">
-                                </div>
-                                <div style="width:200px;" class=" notification-content">
-                                    <h6 class="notification-title">Course Title</h6>
-                                    <p class="notification-desc decription">This is a short description of the course...</p>
-                                </div>
-                                <div class="notification-button">
-                                    <button class="btn btn-sm btn-primary view-course-btn">View</button>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <a class="dropdown-item text-center text-primary" asp-action="ShowNotification" asp-area="User" asp-controller="Home">View all notifications</a>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="NotiItem" class="dropdown-item" style="cursor:pointer;">
+                            <div class="notification-item d-flex" style="padding:10px 0;">
+                                <div class="img mr-2">
+                                    <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="Claudia Gideon" class="img-fluid rounded-circle" style="width:40px; height:40px; object-fit:cover;">
+                                </div>
+                                <div class="notification-content">
+                                    <strong style="font-size: 14px;">Claudia Gideon</strong>
+                                    <span style="color:#928a8a;font-size: 13px;">marked the task done a day ago</span>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li style="position: sticky; bottom: -8px; background-color: white; border-top: 1px solid #bfbfbf;">
+                            <a style="font-size:14px;" class="dropdown-item text-center text-primary" asp-action="ShowNotification"  asp-controller="Home">View All</a>
                         </li>
                     </ul>
                 </div>
 
+
                 <!-- Avatar -->
-                <div class="dropdown">
-                    <a data-mdb-dropdown-init
-                       class=" d-flex align-items-center hidden-arrow"
-                       href="#"
-                       id="navbarDropdownMenuAvatar"
-                       role="button"
-                       aria-expanded="false">
+                <div class="dropdown custom-dropdown">
+                    <a href="#" class="d-flex align-items-center justify-content-center dropdown-link text-left gap-2" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                        <!-- Profile Image or Icon -->
                         @if (!String.IsNullOrEmpty(user.Imageurl))
                         {
-                            <img src="@user.Imageurl"
-                                 class="rounded-circle"
-                                 height="25"
-                                 alt="Black and White Portrait of a Man"
-                                 loading="lazy" />
+                            <img style="max-height:35px; max-width:35px;" src="@user.Imageurl" class="rounded-circle" height="50" alt="" loading="lazy" />
                         }
                         else
                         {
-                            <span class="bg-primary  text-white rounded-circle p-2 d-flex align-items-center justify-content-center ">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                            <span class="bg-primary text-white rounded-circle p-2 d-flex align-items-center justify-content-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                </svg>
                             </span>
                         }
+
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end"
-                        aria-labelledby="navbarDropdownMenuAvatar">
-                        <li>
-                            <a class="dropdown-item" href="#">My profile</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Settings</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Logout</a>
-                        </li>
-                    </ul>
+
+                    <div class="dropdown-menu py-0 shadow-md" style="left:-8rem;" id="dropdownMenu">
+                        <a asp-action="EditProfile" asp-controller="Home" asp-area="" class="dropdown-item"><i class="bi bi-person-circle"></i> My Profile</a>
+                        <a class="dropdown-item"><i class="bi bi-gear-wide-connected"></i> Setting</a>
+                        <a asp-action="Siginout" asp-area="" asp-controller="Account" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Log out</a>
+                    </div>
                 </div>
 
             </div>
@@ -224,11 +327,17 @@
     <div id="preloader"></div>
     <script src="~/assets/vendor/aos/aos.js"></script>
     <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/adminStyle/js/plugins/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+
 
     @* loading *@
     <script src="~/assets/js/main.js"></script>
 
+
     <script src="~/assets/js/secend.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>

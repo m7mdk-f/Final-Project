@@ -8,16 +8,52 @@
 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css">
 
+<style>
+    .CustimBtn {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-top: 0.5em;
+        color: #0d6efd;
+        border: 1.5px solid #0d6efd;
+        cursor: pointer;
+        position: relative;
+        border-radius: 4px;
+        background-color: transparent;
+        text-decoration: none;
+        overflow: hidden;
+        z-index: 1;
+    }
 
+        .CustimBtn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0d6efd;
+            transform: translateX(-100%);
+            transition: all .2s;
+            z-index: -1;
+        }
+
+        .CustimBtn:hover {
+            color: #fff;
+        }
+
+            .CustimBtn:hover::before {
+                transform: translateX(0);
+            }
+</style>
 
 <div class="" style="overflow:hidden;">
     <div class=" py-5">
         <div class="row d-flex justify-content-center">
             <div class="col-md-8  cont " style=" width:90%;">
                 <div class="card">
-                    <div class="card-header bg-light">
-                        <div class="row align-items-center">
-                            <div class="col-md-3 text-center">
+                    <div class="card-header ">
+                        <div class="row align-items-center justify-content-lg-between justify-content-center">
+                            <div class="w-75 ms-lg-5 ms-0 col-md-3 text-center d-lg-flex justify-content-lg-center align-items-lg-center gap-3">
                                 <div class=" position-relative">
                                     <div style="overflow:visible; border:none;" class=" profile-img-container  position-relative">
                                         <div style="overflow:hidden;  " class="profile-img-container position-relative">
@@ -53,14 +89,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-7 mt-3 mt-md-0 text-center text-lg-start mt-md-0 mt-3 w-100">
+                                    <h2 class="mb-1 text-primary" style="font-weight: 600;">
+                                        <span id="displayFirstName">@user.FName</span> <span id="displayLastName">@user.LName</span>
+                                    </h2>
+                                    <p class="text-muted">@user.Email</p>
+                                </div>
                             </div>
-                            <div class="col-md-7 mt-3 mt-md-0 text-center text-md-start">
-                                <h2 class="mb-1">
-                                    <span id="displayFirstName">@user.FName</span> <span id="displayLastName">@user.LName</span>
-                                </h2>
-                                <p class="text-muted">@user.Email</p>
-                            </div>
-                            <div class="col-md-2 text-center text-md-end mt-3 mt-md-0">
+
+                            <div class="col-md-2 text-center text-md-end mt-2 mt-md-0">
                                 <button id="editProfileBtn" class="btn btn-outline-primary edit-profile-button">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -157,20 +194,18 @@
                                             </g>
                                         </svg>
                                     </div>
-                                    <div class="d-flex" style="gap:10px;">
-                                        <div>
-                                            <small class="text-muted">Password</small>
-                                            <p style="margin:3px 0 0 0;" id="bioDisplay">
-                                                *************
-                                            </p>
-                                        </div>
-                                        <div class="d-flex justify-content-center align-items-center">
-                                            <button class="btn text-primary" style="margin-bottom:3px;" data-bs-toggle="modal" data-bs-target="#changePasswordModal" id="changePasswordBtn">
-                                                Change
-                                            </button>
-                                        </div>
+
+                                    <div>
+                                        <small class="text-muted">Password</small>
+                                        <p style="margin:3px 0 0 0;" id="bioDisplay">
+                                            *************
+                                        </p>
                                     </div>
                                 </div>
+
+                                <button class="CustimBtn" data-bs-toggle="modal" data-bs-target="#changePasswordModal" id="changePasswordBtn">
+                                    Change Password
+                                </button>
                             </div>
 
                         </div>
@@ -236,7 +271,7 @@
 
                     <div class="modal-footer border-top-0 pt-4">
                         <button type="button" class="btn btn-outline-secondary px-4" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn btn-primary px-4">Save Changes</button>
+                        <button type="submit" class="CustimBtn mt-0">Save Changes</button>
                     </div>
                 </form>
             </div>
@@ -278,7 +313,7 @@
 
                     <div class="mb-3">
                         <div class="form-floating mb-3">
-                            <input asp-for="NewPassword" oninput="inputcheck(event)" class="form-control password-input" id="NewPassword" placeholder="NewPassword" type="password"  />
+                            <input asp-for="NewPassword" oninput="inputcheck(event)" class="form-control password-input" id="NewPassword" placeholder="NewPassword" type="password" />
                             <label asp-for="NewPassword" class="text-muted">NewPassword</label>
                             <duv class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 15px;">
                                 <i class="bi bi-eye-slash password-icon" style="color:rgba(0,0,0,.5);"></i>
@@ -292,19 +327,19 @@
                             <label asp-for="ConFirmPassword" class="text-muted">ConFirmPassword</label>
                             <div class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 15px;">
                                 <i class="bi bi-eye-slash password-icon" style="color:rgba(0,0,0,.5);"></i>
-                        </div>
+                            </div>
 
-                        <span class="text-danger validation-error" id="ConFirmPasswordError"></span>
+                            <span class="text-danger validation-error" id="ConFirmPasswordError"></span>
+                        </div>
                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="CustimBtn mt-0">Change</button>
+                    </div>
+                </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="submit" class="btn btn-primary">Change</button>
-            </div>
-            </form>
         </div>
     </div>
-</div>
 </div>
 
 <div class="modal fade" id="imageModal" tabindex="-1">
@@ -321,15 +356,16 @@
                     <img id="cropImage" class="w-100 h-100 object-fit-contain">
                 </div>
                 <div class="d-flex gap-3">
-
-                    <a asp-action="RemoveImage" asp-controller="Home" asp-area="" class="btn btn-outline-danger mt-3">Remove Image</a>
+                    <form  method="post" asp-action="RemoveImage" asp-controller="Home">
+                        <button type="submit"  class="btn btn-outline-danger mt-3">Remove Image</button>
+                        </form>
 
                     <button class="btn btn-outline-light mt-3" onclick="document.getElementById('imageInput').click()" data-bs-dismiss="modal">Change Image</button>
                 </div>
             </div>
             <div class="modal-footer border-0">
                 <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
-                <form id="imageUploadForm" method="post" enctype="multipart/form-data" asp-action="ChangeImage" asp-area="Admin" asp-controller="Home">
+                <form id="imageUploadForm" method="post" enctype="multipart/form-data" asp-action="ChangeImage" asp-controller="Home">
                     <input id="ChangeImage" name="ImageUrl" type="file" style="display:none;" />
                     <button type="submit" class="btn btn-primary" onclick="saveCroppedImage(event)">Change Image</button>
                 </form>

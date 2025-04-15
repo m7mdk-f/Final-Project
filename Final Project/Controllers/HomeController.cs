@@ -70,35 +70,6 @@ namespace Final_Project.Controllers
             return View(model);
         }
 
-        [Authorize]
-        [Authorize(Roles = "User,Teacher")]
-
-        public async Task<IActionResult> RemoveImage()
-        {
-            var user = await userManager.GetUserAsync(User);
-            if (String.IsNullOrEmpty(user.Imageurl))
-            {
-                string filePath = Path.Combine(webHostEnvironment.WebRootPath, user.Imageurl.TrimStart('/'));
-                if (System.IO.File.Exists(filePath))
-                {
-                    System.IO.File.Delete(filePath);
-                }
-            }
-
-            user.Imageurl = "";
-            await userManager.UpdateAsync(user);
-
-
-            return RedirectToAction("EditProfile", "Home");
-        }
-        [Authorize]
-        [Authorize(Roles = "User,Teacher")]
-
-        public IActionResult ChangePassword()
-        {
-            return View();
-        }
-
         [HttpPost]
         [Authorize(Roles = "User,Teacher")]
         public async Task<IActionResult> ChangePassword(EditProfileVM model)
@@ -111,12 +82,66 @@ namespace Final_Project.Controllers
                 if (results.Succeeded)
                 {
                     await signInManager.RefreshSignInAsync(user);
-                    return RedirectToAction("ProfileView", "Home", new { area = "Admin" });
+                    return RedirectToAction("EditProfile", "Home");
                 }
             }
             return View(model);
 
         }
+        [HttpPost]
+        [Authorize(Roles = "User,Teacher")]
+        public async Task<IActionResult> ChangeImage(EditProfileVM model)
+        {
+            if (model.ImageUrl != null && model.ImageUrl.Length > 0)
+            {
+
+                string FileName = Guid.NewGuid() + model.ImageUrl.FileName;
+
+                using (var stream = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, "images", FileName), FileMode.Create))
+                {
+                    await model.ImageUrl.CopyToAsync(stream);
+                };
+
+                var user = await userManager.GetUserAsync(User);
+                if (!String.IsNullOrEmpty(user.Imageurl))
+                {
+                    string filePath = Path.Combine(webHostEnvironment.WebRootPath, user.Imageurl.TrimStart('/'));
+
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                }
+                user.Imageurl = "/images/" + FileName;
+                await userManager.UpdateAsync(user);
+
+
+                return RedirectToAction("EditProfile", "Home");
+            }
+
+            ModelState.AddModelError("ImageUrl", "Please upload a valid image.");
+            return View(model);
+        }
+        [HttpPost]
+        [Authorize(Roles = "User,Teacher")]
+        public async Task<IActionResult> RemoveImage()
+        {
+            var user = await userManager.GetUserAsync(User);
+            if (!string.IsNullOrEmpty(user!.Imageurl))
+            {
+                string filePath = Path.Combine(webHostEnvironment.WebRootPath, user.Imageurl.TrimStart('/'));
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+            }
+            user!.Imageurl = "";
+            await userManager.UpdateAsync(user);
+
+
+            return RedirectToAction("EditProfile", "Home");
+        }
+
 
     }
 }

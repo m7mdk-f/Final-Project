@@ -1,4 +1,5 @@
-﻿var isValid = true;
+﻿
+var isValid = true;
 
 function inputcheck(event) {
     var inputElement = event.target;
@@ -82,15 +83,19 @@ function ChangePassword(event) {
         formData.append("CurrentPassword", currentPassword);
         formData.append("NewPassword", newPassword);
         formData.append("ConFirmPassword", confirmPassword);
+        var fullUrl = window.location.href;
+        const url = `${fullUrl.toLowerCase().includes("admin") ? '/Admin' : ''}/Home/ChangePassword`
 
-        xhr.open("POST", "/Admin/Home/ChangePassword", true);
+        xhr.open("POST", url, true);
         xhr.onload = function () {
-            if (xhr.status === 200) {
 
-                // location.reload();
+            if (xhr.status === 200) {
+                alert("Password changed successfully!");
+                 location.reload();
             } else {
-                newPassword = "";
-                confirmPassword = ""
+                
+                document.getElementById('ConFirmPassword').value = ""
+                document.getElementById('NewPassword').value = "";
                 currentPasswordError.textContent = "Current password is incorrect.";
             }
         };
@@ -223,6 +228,7 @@ function previewImage(event) {
     }
 }
 
+
 function saveCroppedImage(event) {
     event.preventDefault();
 
@@ -232,9 +238,11 @@ function saveCroppedImage(event) {
 
         const formData = new FormData();
         formData.append("ImageUrl", file);
-
+        var fullUrl = window.location.href;
+        const url = `${fullUrl.toLowerCase().includes("admin") ? '/Admin' : ''}/Home/ChangeImage`
+        console.log(url);
         const xhr = new XMLHttpRequest();
-        xhr.open("POST", "/Admin/Home/ChangeImage", true);
+        xhr.open("POST", url, true);
 
         xhr.onload = function () {
             if (xhr.status === 200) {

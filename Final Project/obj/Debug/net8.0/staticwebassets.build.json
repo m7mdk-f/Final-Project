@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rtPPVaHeFLXnuGD+DZPfEYolBVeAr0T8gWxL5wNglXE=",
+  "Hash": "h8sI3wfZKuCXO9A46kjtfK97NfHhbboz9rcb08OHCyw=",
   "Source": "Final Project",
   "BasePath": "_content/Final Project",
   "Mode": "Default",
@@ -6436,8 +6436,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u18nw64ha8",
-      "Integrity": "fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ=",
+      "Fingerprint": "8m156bezyk",
+      "Integrity": "cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\adminStyle\\js\\plugins\\apexcharts.min.js"
@@ -13366,8 +13366,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r3qvg7c2jx",
-      "Integrity": "GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=",
+      "Fingerprint": "scftkxrh7e",
+      "Integrity": "BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\secend.js"
@@ -14822,48 +14822,6 @@
       "OriginalItemSpec": "wwwroot\\images\\20c18286-2bf5-49d9-a59a-1686c4936672profile.jpg"
     },
     {
-      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg",
-      "SourceId": "Final Project",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
-      "BasePath": "_content/Final Project",
-      "RelativePath": "images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fmdg309qs3",
-      "Integrity": "95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg"
-    },
-    {
-      "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg",
-      "SourceId": "Final Project",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\",
-      "BasePath": "_content/Final Project",
-      "RelativePath": "images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nfhdnp05qd",
-      "Integrity": "faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg"
-    },
-    {
       "Identity": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\ProfileVIew.js",
       "SourceId": "Final Project",
       "SourceType": "Discovered",
@@ -14878,8 +14836,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ca1g5q6pkb",
-      "Integrity": "hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0=",
+      "Fingerprint": "c75qvwluuw",
+      "Integrity": "2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ProfileVIew.js"
@@ -40972,6 +40930,51 @@
       ]
     },
     {
+      "Route": "adminStyle/js/plugins/apexcharts.min.8m156bezyk.js",
+      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\adminStyle\\js\\plugins\\apexcharts.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 08:10:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8m156bezyk"
+        },
+        {
+          "Name": "label",
+          "Value": "adminStyle/js/plugins/apexcharts.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0="
+        }
+      ]
+    },
+    {
       "Route": "adminStyle/js/plugins/apexcharts.min.js",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\adminStyle\\js\\plugins\\apexcharts.min.js",
       "Selectors": [],
@@ -40982,7 +40985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "517169"
+          "Value": "469445"
         },
         {
           "Name": "Content-Type",
@@ -40990,11 +40993,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ=\""
+          "Value": "\"cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
+          "Value": "Tue, 15 Apr 2025 08:10:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41004,52 +41007,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ="
-        }
-      ]
-    },
-    {
-      "Route": "adminStyle/js/plugins/apexcharts.min.u18nw64ha8.js",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\adminStyle\\js\\plugins\\apexcharts.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "517169"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 08:46:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u18nw64ha8"
-        },
-        {
-          "Name": "label",
-          "Value": "adminStyle/js/plugins/apexcharts.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fv9SvAS4LFHzp31Jygxi5Yk1TT3uydPlwMPBBg2SvaQ="
+          "Value": "sha256-cAnqjPfLEf0Fcey0Nv5lQaxM6BS5g1NPYRtiDSZDWo0="
         }
       ]
     },
@@ -68042,7 +68000,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1656"
+          "Value": "2216"
         },
         {
           "Name": "Content-Type",
@@ -68050,11 +68008,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=\""
+          "Value": "\"BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 11:44:08 GMT"
+          "Value": "Tue, 15 Apr 2025 06:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -68064,12 +68022,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs="
+          "Value": "sha256-BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew="
         }
       ]
     },
     {
-      "Route": "assets/js/secend.r3qvg7c2jx.js",
+      "Route": "assets/js/secend.scftkxrh7e.js",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\assets\\js\\secend.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -68079,7 +68037,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1656"
+          "Value": "2216"
         },
         {
           "Name": "Content-Type",
@@ -68087,11 +68045,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs=\""
+          "Value": "\"BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 11:44:08 GMT"
+          "Value": "Tue, 15 Apr 2025 06:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -68101,7 +68059,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r3qvg7c2jx"
+          "Value": "scftkxrh7e"
         },
         {
           "Name": "label",
@@ -68109,7 +68067,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GZ5sxZWZVTGj+A8CGdW7zWFAi8aKrckjv/huKpw7szs="
+          "Value": "sha256-BGWTbcTiPvSr+/kNykOGflT2GoCMIORIjPfF6+z9kew="
         }
       ]
     },
@@ -73936,171 +73894,7 @@
       ]
     },
     {
-      "Route": "images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.fmdg309qs3.jpg",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6969"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 12:10:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fmdg309qs3"
-        },
-        {
-          "Name": "label",
-          "Value": "images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck="
-        }
-      ]
-    },
-    {
-      "Route": "images/3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\3a18d4cc-ff8f-46fe-9a02-f3b0cc158696profile.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6969"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 12:10:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-95t68X8cY8sj4himm39E1zdcHT8tMNAxjq/JpvQ/Pck="
-        }
-      ]
-    },
-    {
-      "Route": "images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:52:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU="
-        }
-      ]
-    },
-    {
-      "Route": "images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.nfhdnp05qd.jpg",
-      "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\images\\9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:52:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nfhdnp05qd"
-        },
-        {
-          "Name": "label",
-          "Value": "images/9e05214e-ced2-43f7-bf56-f16eadc20bcaprofile.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-faupjBeibkTh67FjvtyV6Kf/IqNmFCW9nvm3/Q8l1vU="
-        }
-      ]
-    },
-    {
-      "Route": "js/ProfileVIew.ca1g5q6pkb.js",
+      "Route": "js/ProfileVIew.c75qvwluuw.js",
       "AssetFile": "D:\\GitHubWork\\Final-Project\\Final Project\\wwwroot\\js\\ProfileVIew.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -74110,7 +73904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8879"
+          "Value": "9292"
         },
         {
           "Name": "Content-Type",
@@ -74118,11 +73912,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0=\""
+          "Value": "\"2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 12:03:32 GMT"
+          "Value": "Tue, 15 Apr 2025 08:24:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74132,7 +73926,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ca1g5q6pkb"
+          "Value": "c75qvwluuw"
         },
         {
           "Name": "label",
@@ -74140,7 +73934,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0="
+          "Value": "sha256-2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo="
         }
       ]
     },
@@ -74155,7 +73949,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8879"
+          "Value": "9292"
         },
         {
           "Name": "Content-Type",
@@ -74163,11 +73957,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0=\""
+          "Value": "\"2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 12:03:32 GMT"
+          "Value": "Tue, 15 Apr 2025 08:24:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74177,7 +73971,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hNcegK8AjsRWOK+jq0sRaPR3+F6DVzR/9D25YNYtbB0="
+          "Value": "sha256-2GvX3yXtdn899xgfNqhTO7ooSrcmyk5Z25NgHn59lRo="
         }
       ]
     },
