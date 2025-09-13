@@ -5,6 +5,7 @@ using Final_Project.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Final_Project.Controllers
 {
@@ -22,45 +23,123 @@ namespace Final_Project.Controllers
             this._emailSender = emailSender;
             this.webHostEnvironment = webHostEnvironment;
         }
-
-
-        public IActionResult Login()
+        private async Task<GoogleUserInfo> GetGoogleUserInfo(string token)
         {
-            return View();
+            var requestUrl = $"https://www.googleapis.com/oauth2/v3/tokeninfo?id_token={token}";
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(requestUrl);
+
+            Console.WriteLine(response);
+
+            var googleUser = JsonConvert.DeserializeObject<GoogleUserInfo>(response);
+            return googleUser;
         }
         [HttpPost]
+        public async Task<IActionResult> RegisterWithGoogle([FromBody] ExternalLoginModel model, string role = "User")
+        {
+            if (model == null || string.IsNullOrEmpty(model.Token))
+            {
+                return Json(new { success = false, message = "Invalid token" });
+            }
 
+            var googleUser = await GetGoogleUserInfo(model.Token);
+            if (googleUser == null)
+            {
+                return Json(new { success = false, message = "Google authentication failed" });
+            }
+
+            var user = await userManager.FindByEmailAsync(googleUser.Email);
+            if (user == null)
+            {
+                user = new UserSigin
+                {
+                    UserName = googleUser.Email,
+                    Email = googleUser.Email,
+                    FName = googleUser.given_name,
+                    LName = googleUser.family_name,
+                    Imageurl = googleUser.picture
+                };
+
+                var result = await userManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                    if (role.Trim() == "Teacher")
+                    {
+                        await userManager.AddToRoleAsync(user, "Teacher");
+                        user.UserType = "Teacher";
+                        await userManager.UpdateAsync(user);
+
+                    }
+                    else
+                    {
+                        await userManager.AddToRoleAsync(user, "User");
+                    }
+
+                    await signInManager.SignInAsync(user, false);
+
+                    return Json(new { success = true, redirectUrl = "/Home/Index" });
+
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("Email", error.Description);
+                    }
+                    return Json(new { success = false, message = "Failed to create user" });
+                }
+            }
+
+
+            await signInManager.SignInAsync(user, false);
+
+            return Json(new { success = true, redirectUrl = "/Home/Index" });
+        }
+
+
+        public async Task<IActionResult> Login()
+        {
+            await signInManager.SignOutAsync();
+            return View();
+        }
+
+        [HttpPost]
         public async Task<IActionResult> Login(LoginMV model)
         {
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByEmailAsync(model.Email);
+
                 if (user != null)
                 {
                     var result = await signInManager.PasswordSignInAsync(user, model.Password, model.RemeberMe, false);
+
                     if (result.Succeeded)
                     {
 
                         if (await userManager.IsInRoleAsync(user, "Admin"))
                         {
-                            return RedirectToAction("Index", "Home", new { area = "Admin" });
+                            return RedirectToAction("Login", "Home", new { area = "Admin" });
                         }
-                        return RedirectToAction("Index", "Home", new { area = "User" });
+                        await signInManager.SignInAsync(user, false);
+
+
+                        return RedirectToAction("Login", "Home");
+
                     }
                 }
-
                 ModelState.AddModelError("ErrorFiled", "Invalid email or password");
+                TempData["error"] = "Fail Login";
             }
-            TempData["error"] = "Mohamed";
-
 
             return View(model);
         }
-        public IActionResult Register(string? id = "user")
+        public async Task<IActionResult> Register(string? id = "user")
         {
+            await signInManager.SignOutAsync();
             return View();
-
         }
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterMV model, string? id = "user")
         {
@@ -98,9 +177,11 @@ namespace Final_Project.Controllers
                     }
                     return View(model);
                 }
-                if (id.Trim() == "Techer")
+                if (id.Trim() == "Teacher")
                 {
-                    await userManager.AddToRoleAsync(user, "Techer");
+                    await userManager.AddToRoleAsync(user, "Teacher");
+                    user.UserType = "Teacher";
+                    await userManager.UpdateAsync(user);
                     await signInManager.SignInAsync(user, false);
                     return RedirectToAction("SetImageProfile", "Account");
 
@@ -112,7 +193,6 @@ namespace Final_Project.Controllers
                     return RedirectToAction("SetImageProfile", "Account");
                 }
             }
-
             return View(model);
         }
 
@@ -120,7 +200,6 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-
 
         [HttpPost]
         [Authorize]
@@ -141,7 +220,9 @@ namespace Final_Project.Controllers
                     ModelState.AddModelError("", "");
                     return View(model);
                 }
+
                 string fileName = Guid.NewGuid().ToString() + model.ImageUrl.FileName;
+
                 var fs1 = new FileStream(Path.Combine(webHostEnvironment.WebRootPath, subFolderPath, fileName), FileMode.Create);
                 await model.ImageUrl.CopyToAsync(fs1);
                 var user = await userManager.GetUserAsync(User);
@@ -149,27 +230,19 @@ namespace Final_Project.Controllers
                 await userManager.UpdateAsync(user);
 
                 var results = await userManager.GetRolesAsync(user);
-                if (results.Contains("User"))
-                {
-                    return RedirectToAction("index", "home", new { area = "User" });
-
-                }
-                if (results.Contains("Techer"))
-                {
-                    return RedirectToAction("index", "home", new { area = "Techer" });
-
-                }
+                return RedirectToAction("index", "home");
 
             }
-
             return View(model);
         }
+
         public async Task<IActionResult> Siginout()
         {
             await signInManager.SignOutAsync();
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("index", "Home");
         }
 
+        //forgetPassword
         public IActionResult VerifyEmail()
         {
             return View();
@@ -257,7 +330,6 @@ namespace Final_Project.Controllers
             return View(model);
         }
         [AllowAnonymous]
-        //m
         public ActionResult ResetPasswordConfirmation()
         {
             return View();
@@ -302,6 +374,10 @@ namespace Final_Project.Controllers
         }
 
 
+    }
+    public class ExternalLoginModel
+    {
+        public string Token { get; set; }
     }
 
 }

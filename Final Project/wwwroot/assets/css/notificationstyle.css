@@ -1,0 +1,150 @@
+/* Style for the notification icon */
+.notification-icon-wrapper i {
+    font-size: 24px; /* Increase the icon size */
+    position: relative;
+}
+
+/* Notification badge (the red circle with number) */
+.badge-notification {
+    font-size: 10px; /* Slightly increase the font size */
+    top: -3px; /* Adjust vertical alignment */
+    left: 8px; /* Adjust horizontal alignment */
+}
+
+/* Ensure the dropdown icon is properly aligned */
+.dropdown-menu-end {
+    min-width: 250px;
+    max-width: 350px;
+    position: absolute;
+    right: -37px !important;
+    top: 32px;
+    z-index: 1050;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+    /* Initial state for hidden dropdown */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start with slight upward movement */
+}
+
+/* Show dropdown animation with keyframes */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+/* Hide dropdown animation with keyframes */
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+    }
+}
+
+/* Add the 'show' class animation when the dropdown is shown */
+.dropdown-menu-end.showdiv {
+    animation: slideIn 0.3s ease forwards;
+}
+
+/* Add the 'hide' class animation when the dropdown is hidden */
+.dropdown-menu-end.hide {
+    animation: slideOut 0.3s ease forwards;
+}
+
+/* Flexbox for the notification item */
+.notification-item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Make sure space is distributed */
+    border-bottom: 1px solid #f0f0f0; /* Optional: adds a separator between items */
+}
+
+    .notification-item:last-child {
+        border-bottom: none; /* Remove bottom border on last item */
+    }
+
+/* Notification Image */
+.notification-img-container {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.notification-img {
+    max-height: 50px;
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Notification Title and Description */
+.notification-content {
+    flex-grow: 1; /* Allows content to take available space */
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Keeps the title and description stacked */
+}
+
+.notification-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Adds space between title and description */
+}
+
+.notification-desc {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+/* Button container */
+.notification-button {
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+    align-items: center;
+}
+
+.view-course-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Button takes only necessary space */
+}
+
+.view-course-btn:hover {
+    background-color: #0056b3;
+}
+
+.view-course-btn:focus {
+    outline: none;
+}
+
+.showdiv {
+    display: block;
+}

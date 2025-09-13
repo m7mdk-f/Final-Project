@@ -7,8 +7,16 @@ namespace Final_Project.Areas.Controllers
     [Authorize(Roles = "User")]
     public class HomeController : Controller
     {
-        public IActionResult Index()
+
+
+        public IActionResult ShowNotification()
         {
+            return View();
+        }
+
+        public IActionResult MyCourses()
+        {
+
             return View();
         }
 

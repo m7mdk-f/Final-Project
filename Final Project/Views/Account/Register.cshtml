@@ -16,12 +16,22 @@
     <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7965.jpg?t=st=1743097830~exp=1743101430~hmac=6d4c4b138b9cbbe019be67561e852b8f8cfee50d13444feb21f591add420970a&w=740"
          class="img-fluid" alt="Phone image">
 </div> *@
-
+<a href="d:\githubwork\final-project\final project\views\account\register.cshtml">d:\githubwork\final-project\final project\views\account\register.cshtml</a>
 <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 con">
     <!-- Step 1: Basic Information -->
     <form id="step1" class="step active" method="post" asp-controller="Account" asp-action="Register">
-        <h2 class="mb-4 header">Register</h2>
-
+       <h2 class="mb-4 header">
+            Register by <span>
+                @if (Url.PageLink()!.Contains("Teacher"))
+                {
+                    <span class="text-primary">Techer</span>
+                }
+                else 
+                {
+                    <span class="text-primary">Student</span>
+                }
+            </span>
+        </h2>
         <!-- First Name and Last Name (Flex Layout) -->
         <div class="flex-container ">
             <div class="form-floating mb-3 " style="width: 100%;">
@@ -55,32 +65,36 @@
         <!-- Password and Confirm Password (Flex Layout) -->
         <div class="flex-container">
             <div class="form-floating mb-3" style="width: 100%;">
-                <input asp-for="Password" style="width: 100%;" class="form-control" id="Password"
-                       placeholder="Password"  autofocus>
-                <label asp-for="Password">Password</label>
-                <span class="text-danger" asp-validation-for="Password">
-
-                </span>
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" class="form-control password-input" id="Password" placeholder="Password" type="password" />
+                    <label asp-for="Password">Password</label>
+                    <div type="button" class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 12px;">
+                        <i class="bi bi-eye-slash password-icon" style="color:rgba(0,0,0,.5);"></i>
+                    </div>
+                    <span class="text-danger"></span>
+                </div>
 
             </div>
             <div class="form-floating mb-3" style="width: 100%;">
-                <input asp-for="ConFimPassword" style="width: 100%;" class="form-control" id="ConfirmPassword"
-                       placeholder="Confirm Password"  autofocus>
-                <label asp-for="ConFimPassword">Confirm Password</label>
-                <span class="text-danger" asp-validation-for="ConFimPassword">
-
-                </span>
+                <div class="form-floating mb-3">
+                    <input asp-for="ConFimPassword" class="form-control password-input" id="ConFimPassword" placeholder="ConFimPassword" type="password" />
+                    <label asp-for="ConFimPassword">ConFimPassword</label>
+                    <div type="button" class="btn btn-link p-0 toggle-password" style="position: absolute; right: 10px; top: 12px;">
+                        <i class="bi bi-eye-slash password-icon" style="color:rgba(0,0,0,.5);"></i>
+                    </div>
+                    <span class="text-danger" asp-validation-for="ConFimPassword"></span>
+                </div>
 
             </div>
         </div>
-        @if(Url.PageLink()!.Contains("Techer")){
+        @if(Url.PageLink()!.Contains("Teacher")){
             
             <p class=" mt-3" style="text-align:right;">Iam Stud  <a href="@Url.Action("Register","Account",new {id="User"})">Sign up </a></p>
         }
-        @if (!Url.PageLink()!.Contains("Techer"))
+        @if (!Url.PageLink()!.Contains("Teacher"))
         {
 
-            <p class=" mt-3" style="text-align:right;">Iam Teacher  <a href="@Url.Action("Register","Account",new {id="Techer"})">Sign up </a></p>
+            <p class=" mt-3" style="text-align:right;">Iam Teacher  <a href="@Url.Action("Register","Account",new {id="Teacher"})">Sign up </a></p>
         }
 
         <div class="position-relative overflow-hidden">
@@ -90,7 +104,7 @@
         <div class="divider d-flex align-items-center my-4">
             <p class="text-center  mx-3 mb-0 text-muted">OR</p>
         </div>
-        <div id="g_id_onload" class="w-100 d-block" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+        <div id="g_id_onload" class="w-100 d-block" data-client_id="405553481431-fehfmhj3t4d53v5n76qq21gr443iouf4.apps.googleusercontent.com"
              data-callback="handleCredentialResponse">
         </div>
 
@@ -104,4 +118,6 @@
 </div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+
 }
+

@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Final_Project.Data
 {
-    public class ApplicationDBContext:IdentityDbContext<UserSigin>
+    public class ApplicationDBContext : IdentityDbContext<UserSigin>
     {
-        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options):base(options)
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
         {
-            
+
         }
 
     }

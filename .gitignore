@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Final Project
+/.vs/Final Project/DesignTimeBuild/.dtbcache.v2
+/.gitignore
+/Final Project/Views/Account/Login.cshtml
+/Final Project/Data/SeedData.cs

@@ -12,75 +12,87 @@ namespace Final_Project
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<ApplicationDBContext>(optoin =>
+            // Database connection setup
+            builder.Services.AddDbContext<ApplicationDBContext>(options =>
             {
-                string ConnectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
-                optoin.UseSqlServer(ConnectionString);
+                string connectionString = builder.Configuration.GetConnectionString("MohamedConnectionString")!;
+                options.UseSqlServer(connectionString);
             });
 
-
-            builder.Services.AddIdentity<UserSigin, IdentityRole>(option =>
+            // Google Authentication setup
+            builder.Services.AddAuthentication().AddGoogle(options =>
             {
-                option.Password.RequireDigit = false;
-                option.Password.RequireLowercase = false;
-                option.Password.RequiredLength = 8;
-                option.Password.RequireUppercase = false;
-                option.Password.RequireNonAlphanumeric = false;
-            }).AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
+                options.ClientId = builder.Configuration["Authentication:Google:ClientId"]!;
+                options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"]!;
+            });
+
+            // Identity setup
+            builder.Services.AddIdentity<UserSigin, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequiredLength = 8;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+            })
+            .AddEntityFrameworkStores<ApplicationDBContext>()
+            .AddDefaultTokenProviders();
+
+            // Register services
             builder.Services.AddTransient<EmailSenderService>();
+
+            // Authorization policies
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
                 options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
-                options.AddPolicy("RequireTecherRole", policy => policy.RequireRole("Techer"));
-
+                options.AddPolicy("RequireTeacherRole", policy => policy.RequireRole("Teacher"));
             });
 
-
+            // Add controllers with views (for MVC)
+            builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
-
-
+            // Configure middleware
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
+            // Initialize seed data
             using (var scope = app.Services.CreateScope())
             {
                 await SeedData.Initialize(scope.ServiceProvider);
             }
 
+            // Map Area Routes
             app.MapAreaControllerRoute(
-                 name: "Admin",
-                 areaName: "Admin",
-                 pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
+                name: "Teacher",
+                areaName: "Teacher",
+                pattern: "Teacher/{controller=Home}/{action=Index}/{id?}");
+
+            app.MapAreaControllerRoute(
+                name: "Admin",
+                areaName: "Admin",
+                pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
 
             app.MapAreaControllerRoute(
                 name: "User",
                 areaName: "User",
                 pattern: "User/{controller=Home}/{action=Index}/{id?}");
 
-            app.MapAreaControllerRoute(
-         name: "Techer",
-         areaName: "Techer",
-         pattern: "Techer/{controller=Home}/{action=Index}/{id?}");
-
+            // Default route
             app.MapControllerRoute(
-            name: "default",
-            pattern: "{controller=Account}/{action=Login}/{id?}");
+                name: "default",
+                pattern: "{controller=Home}/{action=index}/{id?}");
 
             app.Run();
         }

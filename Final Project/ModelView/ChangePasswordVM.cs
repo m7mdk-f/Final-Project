@@ -9,12 +9,14 @@ namespace Final_Project.ModelView
         [DataType(dataType: DataType.Password)]
         [Display(Name = "Current Password")]
         public string? CurrentPassword { get; set; }
+
         [Required]
         [MaxLength(100)]
         [DataType(dataType: DataType.Password)]
         [Display(Name = "New Password")]
 
         public string? NewPassword { get; set; }
+
         [Required]
         [MaxLength(100)]
         [DataType(dataType: DataType.Password)]

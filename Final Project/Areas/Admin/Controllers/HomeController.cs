@@ -20,6 +20,14 @@ namespace Final_Project.Areas.Admin.Controllers
             this.signInManager = signInManager;
             this.hostEnvironment = hostEnvironment;
         }
+
+        public async Task<IActionResult> Login()
+        {
+            var results = await userManager.GetUserAsync(User);
+            TempData["success"] = $"Welocom {results!.FName}";
+
+            return RedirectToAction("Index", "Home");
+        }
         public IActionResult Index()
         {
             return View();
@@ -38,48 +46,32 @@ namespace Final_Project.Areas.Admin.Controllers
                 var user = await userManager.GetUserAsync(User);
                 user.LName = model.LName;
                 user.FName = model.FName;
-                user.Address = model.Address is null ? "" : model.Address;
-                user.PhoneNumber = model.PhoneNumber is null ? "" : model.PhoneNumber;
+                user.Address = String.IsNullOrEmpty(model.Address) ? "" : model.Address;
+                user.PhoneNumber = String.IsNullOrEmpty(model.PhoneNumber) ? "" : model.PhoneNumber;
                 await userManager.UpdateAsync(user);
                 await signInManager.RefreshSignInAsync(user);
             }
-
-
             return View(model);
         }
-        [HttpGet]
-        public IActionResult ChangePassword()
-        {
-            return View();
-        }
+
 
         [HttpPost]
-        public async Task<IActionResult> ChangePassword(ChangePasswordVM model)
+        public async Task<IActionResult> ChangePassword(EditProfileVM model)
         {
-            if (ModelState.IsValid)
+
+            var user = await userManager.GetUserAsync(User);
+            if (user != null)
             {
-                UserSigin user = await userManager.GetUserAsync(User);
-                if (user == null)
-                {
-                    return RedirectToAction("Login", "Account");
-                }
                 var results = await userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
                 if (results.Succeeded)
                 {
-                    TempData["SuccessMessage"] = "Your password has been changed successfully!";
                     await signInManager.RefreshSignInAsync(user);
-                    return RedirectToAction("Index", "Home", new { area = "Admin" });
-
+                    return RedirectToAction("ProfileView", "Home", new { area = "Admin" });
                 }
-                else
-                {
-                    ModelState.AddModelError("CurrentPassword", "Invalid Current Password");
-                }
-
             }
             return View(model);
-        }
 
+        }
 
         [HttpPost]
         public async Task<IActionResult> ChangeImage(EditProfileVM model)

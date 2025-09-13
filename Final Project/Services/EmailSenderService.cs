@@ -14,14 +14,19 @@ namespace Final_Project.Services
         {
             // Retrieve the mail server (SMTP host) from the configuration.
             string? MailServer = _configuration["EmailSettings:MailServer"];
+
             // Retrieve the sender email address from the configuration.
             string? FromEmail = _configuration["EmailSettings:FromEmail"];
+
             // Retrieve the sender email password from the configuration.
             string? Password = _configuration["EmailSettings:Password"];
+
             // Retrieve the sender's display name from the configuration.
             string? SenderName = _configuration["EmailSettings:SenderName"];
+
             // Retrieve the SMTP port number from the configuration and convert it to an integer.
             int Port = Convert.ToInt32(_configuration["EmailSettings:MailPort"]);
+
             // Create a new instance of SmtpClient using the mail server and port number.
             var client = new SmtpClient(MailServer, Port)
             {
@@ -30,8 +35,10 @@ namespace Final_Project.Services
                 // Enable SSL for secure email communication.
                 EnableSsl = true,
             };
+
             // Create a MailAddress object with the sender's email and display name.
             MailAddress fromAddress = new MailAddress(FromEmail, SenderName);
+
             // Create a new MailMessage object to define the email's properties.
             MailMessage mailMessage = new MailMessage
             {
@@ -40,11 +47,12 @@ namespace Final_Project.Services
                 Body = Body, // Set the email body content.
                 IsBodyHtml = IsBodyHtml // Specify whether the body content is in HTML format.
             };
+
             // Add the recipient's email address to the message.
             mailMessage.To.Add(ToEmail);
+
             // Send the email asynchronously using the SmtpClient instance.
             return client.SendMailAsync(mailMessage);
         }
-    
     }
 }
